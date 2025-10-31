@@ -1,4 +1,4 @@
-# AI Workbench: Visual Network Narrative Dissertation
+# AI Workbench: Pipeline Workshop for Jetstream2
 MLOPs and LLMOPs for Jetstream2 AI Worskhop \
 December 2025
 
