@@ -9,7 +9,7 @@ December 2025
 
 
 ## [Data Collection and Evaluation](https://github.com/lwdozal/Dissertation_AI_Workbench/tree/main/data_collection)
-- Download image dataset created by Google Gemini based on original data
+- Download image dataset created by Google Gemini based on original data\
   --- Original data not shared because of Instagram privacy policy
 
 ### Data Exploration (Clustering)
@@ -22,7 +22,6 @@ Clean post comments i.e. lemmetize, translate emojies, rename hashtags, lowercas
 Multlingual sentence transformers
 - Huggingface sentence transformer
 - LaBASE (Language Agnostic BERT sentence encoder)
-- GCN?
 
 Evaluation Metrics: 
 - Acuracy, Precision, Recall, F1-Score, Hamming Loss
