@@ -1,5 +1,5 @@
 # AI Workbench: Visual Network Narrative Dissertation
-MLOPs and LLMOPs for Jetstream2 AI Worskhop
+MLOPs and LLMOPs for Jetstream2 AI Worskhop \
 December 2025
 
 ### Implementation
@@ -9,11 +9,8 @@ December 2025
 
 
 ## [Data Collection and Evaluation](https://github.com/lwdozal/Dissertation_AI_Workbench/tree/main/data_collection)
-- Web Scraping (Bot) 
-- Cleaning; Preparing and Monitoring   
-- Identify security and ethical risks in the data and storage
-#### Resources
-Instagram Account
+- Download image dataset created by Google Gemini based on original data
+  --- Original data not shared because of Instagram privacy policy
 
 ### Data Exploration (Clustering)
 
