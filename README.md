@@ -1,5 +1,6 @@
 # AI Workbench: Visual Network Narrative Dissertation
-MLOPs and LLMOPs for dissertation analysis workflow
+MLOPs and LLMOPs for Jetstream2 AI Worskhop
+December 2025
 
 ### Implementation
 
