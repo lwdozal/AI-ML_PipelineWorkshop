@@ -8,7 +8,7 @@ December 2025
 2. Create a new virtual environment
 
 
-## [Data Collection and Evaluation](https://github.com/lwdozal/Dissertation_AI_Workbench/tree/main/data_collection)
+## [Data Collection and Evaluation](ADD LINK)
 - Download image dataset created by Google Gemini based on original data\
   --- Original data not shared because of Instagram privacy policy
 
