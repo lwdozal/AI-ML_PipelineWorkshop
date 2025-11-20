@@ -9,7 +9,7 @@ December 2025
 
 
 ## [Data Collection and Evaluation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/tree/main/DataCollection)
-- Download image dataset created by Google Gemini based on original data\
+- Follow along to create image dataset using Google Gemini API; or just download the image dataset based on original data\
   --- Original data not shared because of Instagram privacy policy
 
 ### Data Exploration (Clustering)
