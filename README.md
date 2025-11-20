@@ -8,7 +8,7 @@ December 2025
 2. Create a new virtual environment
 
 
-## [Data Collection and Evaluation](ADD LINK)
+## [Data Collection and Evaluation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/tree/main/DataCollection)
 - Download image dataset created by Google Gemini based on original data\
   --- Original data not shared because of Instagram privacy policy
 
