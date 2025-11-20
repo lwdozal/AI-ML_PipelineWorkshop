@@ -1,5 +1,5 @@
-# AI Workbench: AI/MLOPs Pipeline Workshop
-- Funded by Jetstream2
+# AI Workbench for Synthetic Data Generation, M-LLM Comparison, and Network Building
+- Funded by Jetstream2 \
 MLOPs and LLMOPs for Jetstream2 AI Worskhop \
 December 2025
 
