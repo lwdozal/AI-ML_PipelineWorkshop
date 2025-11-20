@@ -41,12 +41,11 @@ PIL, Requests, pydantic, open-cv, os \
 langchain core and openai, \ -->
 
 
-
 ## Model Deployment
 
-### Identify Semantic similarities
+### Narrative Structure and Community Detection
 
-Create Structural graph (content-based knowledge representation) 
+Identify Semantic similarities by creating and evaluating structural graphs (content-based knowledge representation) 
 - Viz_weights + generated label_weights
 - Viz_weights & generated label_weights + generated captions
 - Viz_weights & generated label_weights + generated captions & original post comments
