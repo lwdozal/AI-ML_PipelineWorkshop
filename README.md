@@ -1,4 +1,5 @@
-# AI Workbench: Pipeline Workshop for Jetstream2
+# AI Workbench: AI/MLOPs Pipeline Workshop
+- Funded by Jetstream2
 MLOPs and LLMOPs for Jetstream2 AI Worskhop \
 December 2025
 
