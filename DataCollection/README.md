@@ -16,8 +16,8 @@ The data used for this workshop is generated with the free version of Google Gem
 4. Install required packages via pip install -r requirements.txt
 5. Follow Jupyter Notebooks in the DataCollection folder to generate images and comments
 
-## Data Evaluations
+## Data Evaluation
 1. Spot check samples of generated images and comments for quality assurance
 2. Evaluate image labels and descriptions of generated images based on initial contextual information
-
+3. Create downloadable dataset for model development and downstream tasks.
 
