@@ -9,10 +9,11 @@ December 2025
 
 
 ## [Data Collection and Evaluation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/tree/main/DataCollection)
-- Follow along to create image dataset using Google Gemini API; or just download the image dataset based on original data\
+- Follow along to create image dataset using Google Gemini API
+- OR Download the image dataset based on original data\
   --- Original data not shared because of Instagram privacy policy
 
-### Data Exploration (Clustering)
+## Data Exploration (Clustering)
 
 ## [Model Development](https://github.com/lwdozal/Dissertation_AI_Workbench/tree/main/Step1_Pattern_Detection)
 
@@ -23,12 +24,13 @@ Multlingual sentence transformers
 - Huggingface sentence transformer
 - LaBASE (Language Agnostic BERT sentence encoder)
 
+Ongoing monitoring of security and ethical risks 
+
+### Generative AI Model Reivew
 Evaluation Metrics: 
 - Acuracy, Precision, Recall, F1-Score, Hamming Loss
 - Confusion Matrix (Visuallization)
 - BERTScore, Sentence Transformer Cosine Similarities
-
-Ongoing monitoring of security and ethical risks 
 
 ### Resources
 Hugging Face Access, Access to LLM (I used VERDE), GPU Access
