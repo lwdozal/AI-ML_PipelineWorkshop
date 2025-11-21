@@ -26,7 +26,7 @@ The synthetically generated images follow the topic of a specific case study, a 
 - OR Download the image dataset based on original data\
   --- Original data not shared because of Instagram privacy policy
 
-## Data Exploration (Clustering)
+## Data Exploration (Content Analysis)
 
 ## [Model Development](https://github.com/lwdozal/Dissertation_AI_Workbench/tree/main/Step1_Pattern_Detection)
 
