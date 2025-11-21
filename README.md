@@ -7,13 +7,19 @@ AI/MLOPs pipeline that runs synthetically generated image data through a Multimo
 
 The synthetically generated images follow the topic of a specific case study, a social movement. The process uses quantitative and Human-In-The-Loop evaluation to identify patterns within the network structure to summarize the overall narrative found within the collection of images. 
 
+### Learning Objectives
+1) Understanding of AI/MLOPs and pipeline creation (Using Open Source CARE principles)
+2) Introduction to Synthetic Data Generation
+3) Introduction to Multimodal-Large Language Models
+4) Understanding of Centrality Measures
+5) Introduction to Human in the Loop Evaluation
+   
 ### Implementation
 
 1. Download/clone the repository and save to your desired folder 
 2. Create a new virtual environment
 - add how to create a new environment
 - add requirements doc
-
 
 ## [Data Collection and Evaluation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/tree/main/DataCollection)
 - Follow along to create image dataset using Google Gemini API
