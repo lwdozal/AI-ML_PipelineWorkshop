@@ -1,7 +1,9 @@
 
 # Synthetic Data Generation
+<!--
 - explain synthetic data and scenario generation
 -   evaluate and review the stats of the data; etc
+-->
 Scenario Generation: The data used for this workshop is generated with the free version of Google Gemini via a student account. The contextual foundation of the images and comments generated are based on three existing forms of data. 
 1. [Atropia data](https://odin.tradoc.army.mil/DATE/Caucasus/Atropia): News reports and stories a fictional country named atropia. This data was created for training purposes by the united states military.
 2. [World Bank Synthetic Data](https://microdata.worldbank.org/index.php/catalog/5906/study-description) for an Imaginary Country: Data variables include imaginary individual and household demographic data.
