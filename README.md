@@ -1,6 +1,6 @@
 # AI Workbench for Synthetic Data Generation, Generative M-LLM Comparison, and Network Building
 *Funded by Jetstream2* \
-*MLOPs and LLMOPs for Jetstream2 AI Worskhop* \
+Still in Development - *MLOPs and LLMOPs for Jetstream2 AI Worskhop* \
 December 2025
 
 AI/MLOPs pipeline that runs synthetically generated image data through a Multimodal-LLM to generate labels and captions of each image. These labels and captions are semantically evaluated and then implemented into a network structure to understand different thematic representations and how they are grouped. 
@@ -63,6 +63,7 @@ Identify Semantic similarities by creating and evaluating structural graphs (con
 - Viz_weights & generated label_weights + generated captions
 - Viz_weights & generated label_weights + generated captions & original post comments
 
+<!-- 
 Community Detection (Evaluation of Network Structure):
 - Centraility Measures
 - ERGM algorithm
@@ -71,3 +72,4 @@ Community Detection (Evaluation of Network Structure):
 Graph Analysis
 - Multipartite, Bipartite
 - Multiplex Graphs?
+-->
