@@ -14,11 +14,11 @@ The synthetically generated images follow the topic of a specific case study, a 
 4) Understanding of Centrality Measures
 5) Introduction to Human in the Loop Evaluation
    
-### Implementation
+## Implementation
 
 1. [Enroll in the Workshop to have access to the Cyverse Discovery Environment]() <!-- https://user.cyverse.org/workshops/208 -->
-2. Jupyter Lab PyTorch GPU. Found in Instant Launches Section
-3. 
+2. Open Jupyter Lab PyTorch GPU. Found in Instant Launches Section
+3. Copy Repository Link and connect it to VSCode
 
    
 . Create a new virtual environment
