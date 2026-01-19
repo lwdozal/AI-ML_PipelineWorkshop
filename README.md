@@ -16,11 +16,20 @@ The synthetically generated images follow the topic of a specific case study, a 
    
 ### Implementation
 
-1. Download/clone the repository and save to your desired folder 
-2. Create a new virtual environment
+1. [Enroll in the Workshop to have access to the Cyverse Discovery Environment]() <!-- https://user.cyverse.org/workshops/208 -->
+2. Jupyter Lab PyTorch GPU. Found in Instant Launches Section
+3. 
+
+   
+. Create a new virtual environment
 - add how to create a new environment
 - add requirements doc
+Download/clone the repository and save to your desired folder 
 
+
+
+
+____________________________________________________________________________________
 ## [Data Collection and Evaluation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/tree/main/DataCollection)
 - Follow along to create image dataset using Google Gemini API
 - OR Download the image dataset based on original data\
