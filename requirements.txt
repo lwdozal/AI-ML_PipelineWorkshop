@@ -11,22 +11,28 @@ numpy>=1.23.0
 
 # Image Processing
 Pillow>=9.5.0
-opencv-python>=4.7.0
+# opencv-python>=4.7.0
+opencv-python
 
 # Configuration Management
-python-dotenv>=1.0.0
-PyYAML>=6.0
+# python-dotenv>=1.0.0
+# PyYAML>=6.0
+python-dotenv
+PyYAML
 
 # Progress Tracking
-tqdm>=4.65.0
+tqdm>=4.65.0pip
 
 # Visualization
-matplotlib>=3.7.0
-seaborn>=0.12.0
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
+matplotlib
+seaborn
 
 # Web Scraping (for Atropia data)
 requests>=2.31.0
-beautifulsoup4>=4.12.0
+# beautifulsoup4>=4.12.0
+beautifulsoup4
 lxml>=4.9.0
 
 # Data Validation
