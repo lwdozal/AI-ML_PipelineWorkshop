@@ -1,15 +1,15 @@
-site_name: FOSS Reference Hub
-site_description: FOSS Reference Hub
-site_author: Michele Cosi
-site_url: https://cyverse-learning-materials.github.io/foss-reference-hub
+site_name: AI/ML Pipeline Workshop
+site_description: Synthetic Data Generation, Multimodal LLM Evaluation, and Network Analysis Workshop
+site_author: Laura Dozal
+site_url: https://lwdozal.github.io/AI-ML_PipelineWorkshop
 
 # Repository
-repo_name: FOSS Reference Hub
-repo_url: https://github.com/CyVerse-learning-materials/foss-reference-hub
+repo_name: AI-ML_PipelineWorkshop
+repo_url: https://github.com/lwdozal/AI-ML_PipelineWorkshop
 edit_uri: edit/main/docs/
-# Copyright
-copyright: 'Copyright &copy; 2023 - 2024 CyVerse'
 
+# Copyright
+copyright: 'Copyright &copy; 2026 Laura Dozal. Funded by Jetstream2.'
 
 # Configuration
 theme:
@@ -17,9 +17,9 @@ theme:
   highlightjs: true
   font:
     text: Roboto
-    code: Regular
+    code: Roboto Mono
 
-  # Features  
+  # Features
   features:
   - navigation.instant
   - navigation.tracking
@@ -28,6 +28,8 @@ theme:
   - navigation.indexes
   - navigation.top
   - toc.follow
+  - content.code.copy
+  - content.code.annotate
 
   # 404 page
   static_templates:
@@ -37,40 +39,67 @@ theme:
   include_search_page: false
   search_index_only: true
 
-  # Palette and theme (uses personalized colours)
+  # Palette and theme
   language: en
   palette:
-    primary: custom
-    accent: custom
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
   icon:
-    logo: material/cogs
-  favicon: material/cogs
+    logo: material/school
+  favicon: material/school
 
 # Page tree
 nav:
   - Home: index.md
-  - Codebase: 
-      Installation and Requirements: installation.md
-      User Manual: manual.md
-  - Data Managemen Plan: Data_Management_Plan.md
-  - Governance & Operations: Governance_Operations.md
-  - The openDendro Project: https://opendendro.org/
-  - FOSS Main Page: https://foss.cyverse.org/
+  - Getting Started:
+      - Create CyVerse Account: cyverse_account.md
+      - Setup Guide: setup.md
+  - Workshop Modules:
+      - Data Collection: data_collection.md
+      - Model Development: model_development.md
+      - Model Deployment: model_deployment.md
+  - Resources:
+      - Data Management Plan: Data_Management_Plan.md
+      - Governance & Operations: Governance_Operations.md
+  - External Links:
+      - Workshop Registration: https://user.cyverse.org/workshops/208
+      - CyVerse Learning Center: https://learning.cyverse.org
+      - GitHub Repository: https://github.com/lwdozal/AI-ML_PipelineWorkshop
 
 # Theme Extras
 extra_css:
   - stylesheets/extra.css
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lwdozal/AI-ML_PipelineWorkshop
+    - icon: fontawesome/solid/graduation-cap
+      link: https://user.cyverse.org/workshops/208
+
 # Extra Plugins
 plugins:
     - search
-    - mkdocstrings
-    - git-revision-date
+    - git-revision-date-localized:
+        enable_creation_date: true
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
 
-# Extensions (leave as is)
+# Extensions
 markdown_extensions:
   - admonition
   - abbr
@@ -90,15 +119,18 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: lwdozal
+      repo: AI-ML_PipelineWorkshop
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -106,7 +138,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
