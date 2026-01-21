@@ -71,11 +71,11 @@ nav:
       - Data Collection:
           - Overview: data_collection.md
           - Notebooks:
-              - 1. Setup and Test: DataCollection/notebooks/01_setup_and_test.ipynb
-              - 2. Prepare Source Data: DataCollection/notebooks/02_prepare_source_data.ipynb
-              - 3. Generate Images: DataCollection/notebooks/03_generate_images.ipynb
-              - 4. Generate Metadata: DataCollection/notebooks/04_generate_metadata.ipynb
-              - 5. Quality Assurance: DataCollection/notebooks/05_quality_assurance.ipynb
+              - 1. Setup and Test: notebooks/01_setup_and_test.ipynb
+              - 2. Prepare Source Data: notebooks/02_prepare_source_data.ipynb
+              - 3. Generate Images: notebooks/03_generate_images.ipynb
+              - 4. Generate Metadata: notebooks/04_generate_metadata.ipynb
+              - 5. Quality Assurance: notebooks/05_quality_assurance.ipynb
       - Model Development: model_development.md
       - Model Deployment: model_deployment.md
   - Resources:
