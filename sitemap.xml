@@ -32,4 +32,24 @@
          <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/setup/</loc>
          <lastmod>2026-01-21</lastmod>
     </url>
+    <url>
+         <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/notebooks/01_setup_and_test/</loc>
+         <lastmod>2026-01-21</lastmod>
+    </url>
+    <url>
+         <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/notebooks/02_prepare_source_data/</loc>
+         <lastmod>2026-01-21</lastmod>
+    </url>
+    <url>
+         <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/notebooks/03_generate_images/</loc>
+         <lastmod>2026-01-21</lastmod>
+    </url>
+    <url>
+         <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/notebooks/04_generate_metadata/</loc>
+         <lastmod>2026-01-21</lastmod>
+    </url>
+    <url>
+         <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/notebooks/05_quality_assurance/</loc>
+         <lastmod>2026-01-21</lastmod>
+    </url>
 </urlset>
