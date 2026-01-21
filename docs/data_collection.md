@@ -241,7 +241,6 @@ Once you've generated and evaluated your synthetic dataset:
 
 ## Additional Resources
 
-- [DataCollection README](../DataCollection/README.md)
 - [Google Gemini API Documentation](https://ai.google.dev/docs)
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [Synthetic Data Best Practices](https://arxiv.org/abs/2205.01710)
