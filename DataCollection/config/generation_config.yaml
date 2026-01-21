@@ -1,0 +1,201 @@
+# AI/ML Pipeline Workshop - Generation Configuration
+# Adjust these parameters based on your needs and API quotas
+
+generation:
+  # Number of synthetic images to generate
+  # Recommended: Start with 10-20 for testing, then scale up
+  # Workshop participants can adjust this value
+  num_images: 50
+
+  # Images processed per batch (checkpoint saved after each batch)
+  batch_size: 10
+
+  # Image resolution: "1K" (1024x1024) or "4K" (4096x4096)
+  # Note: 4K uses more API quota and costs more
+  resolution: "1K"
+
+  # Gemini model for image generation
+  # Options: "gemini-2.5-flash-image", "gemini-2.5-pro-image"
+  model: "gemini-2.5-flash-image"
+
+  # Aspect ratio for generated images
+  # Options: "1:1", "16:9", "9:16", "4:3", "3:4"
+  aspect_ratio: "1:1"
+
+  # Enable checkpoint/resume functionality
+  enable_checkpoints: true
+  checkpoint_file: "data/checkpoints/generation_checkpoint.json"
+
+prompts:
+  # Prompt style for image generation
+  # Options: "realistic", "artistic", "documentary", "photojournalistic"
+  style: "realistic"
+
+  # Complexity level affects prompt detail
+  # Options: "simple", "medium", "complex"
+  complexity: "medium"
+
+  # Include temporal context (time of day, weather, season)
+  include_temporal_context: true
+
+  # Include demographic diversity in prompts
+  include_demographics: true
+
+  # Social movement themes to emphasize
+  themes:
+    - protest
+    - civic_engagement
+    - political_rally
+    - community_gathering
+    - grassroots_organizing
+    - demonstrations
+
+  # Settings (urban/rural mix)
+  settings:
+    - urban_city_center
+    - town_square
+    - university_campus
+    - government_building
+    - public_park
+    - street_march
+
+metadata:
+  # Number of social media-style comments per image
+  num_comments_per_image: 5
+
+  # Include hashtags in comments
+  include_hashtags: true
+
+  # Include emojis in comments (for realism)
+  include_emojis: true
+
+  # Generate multiple caption variations
+  num_caption_variations: 1
+
+  # Label categories to generate
+  label_categories:
+    - scene_type
+    - setting
+    - activity_level
+    - crowd_size
+    - time_of_day
+    - sentiment
+    - primary_subjects
+
+rate_limiting:
+  # Requests per minute (conservative for free tier)
+  # Adjust based on your API quota
+  requests_per_minute: 10
+
+  # Daily request limit
+  requests_per_day: 1000
+
+  # Enable exponential backoff on errors
+  enable_exponential_backoff: true
+
+  # Initial retry delay (seconds)
+  initial_retry_delay: 2
+
+  # Maximum retry attempts
+  max_retries: 3
+
+  # Backoff multiplier
+  backoff_multiplier: 2
+
+source_data:
+  # Atropia data configuration
+  atropia:
+    # Number of news samples to fetch
+    num_samples: 100
+
+    # Focus themes for Atropia data
+    focus_themes:
+      - political_unrest
+      - protests
+      - elections
+      - civil_society
+      - government_response
+
+  # World Bank data configuration
+  worldbank:
+    # Demographic categories to sample
+    demographic_categories:
+      - age_group
+      - occupation
+      - education_level
+      - urban_rural
+      - household_composition
+
+    # Number of demographic profiles to generate
+    num_profiles: 50
+
+  # Social media reference configuration
+  social_media:
+    # If using image references, max number to sample
+    max_reference_images: 20
+
+    # If using text descriptions, sample size
+    max_descriptions: 50
+
+output:
+  # Save intermediate checkpoints
+  save_intermediate: true
+
+  # Image output format
+  image_format: "png"
+
+  # Metadata format: "json" or "csv"
+  # json: Full provenance, nested structure
+  # csv: Tabular format, easier for analysis
+  metadata_format: "json"
+
+  # Also export CSV summaries
+  export_csv_summaries: true
+
+  # Organize outputs by date
+  date_organized: true
+
+  # Base output directory (relative to DataCollection/)
+  output_dir: "data/generated"
+
+  # Subdirectories
+  images_dir: "images"
+  captions_dir: "captions"
+  labels_dir: "labels"
+  comments_dir: "comments"
+  metadata_dir: "metadata"
+
+validation:
+  # Automatically validate generated images
+  auto_validate: true
+
+  # Minimum image file size (KB) to consider valid
+  min_image_size_kb: 10
+
+  # Check for duplicate images (perceptual hashing)
+  check_duplicates: true
+
+  # Duplicate similarity threshold (0-100, higher = more strict)
+  duplicate_threshold: 95
+
+  # Validate metadata completeness
+  validate_metadata: true
+
+  # Generate QA report after generation
+  generate_qa_report: true
+
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+
+  # Log to file
+  log_to_file: true
+
+  # Log file path
+  log_file: "logs/pipeline.log"
+
+  # Also log to console
+  log_to_console: true
+
+  # Include timestamps in logs
+  include_timestamps: true

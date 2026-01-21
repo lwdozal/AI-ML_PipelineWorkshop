@@ -16,24 +16,127 @@ The synthetically generated images follow the topic of a specific case study, a 
    
 ## Implementation
 
-1. [Enroll in the Workshop to have access to the Cyverse Discovery Environment]() <!-- https://user.cyverse.org/workshops/208 -->
-2. Open Jupyter Lab PyTorch GPU. Found in Instant Launches Section
-3. Copy Repository Link and connect it to VSCode
+### Workshop Setup
 
-   
-. Create a new virtual environment
-- add how to create a new environment
-- add requirements doc
-Download/clone the repository and save to your desired folder 
+1. **Enroll in the Workshop** to access CyVerse Discovery Environment
+   - Workshop enrollment: [CyVerse Workshop Registration](https://user.cyverse.org/workshops/208)
+   - You will receive access credentials and instructions
+
+2. **Launch Jupyter Lab PyTorch GPU**
+   - Navigate to CyVerse Discovery Environment
+   - Go to Instant Launches Section
+   - Select "Jupyter Lab PyTorch GPU"
+   - Wait for environment to initialize
+
+3. **Clone the Repository**
+   ```bash
+   cd ~/data-store
+   git clone https://github.com/lwdozal/AI-ML_PipelineWorkshop.git
+   cd AI-ML_PipelineWorkshop
+   ```
+
+4. **Create Virtual Environment**
+   ```bash
+   # Option 1: Using venv
+   python -m venv venv
+   source venv/bin/activate
+
+   # Option 2: Using conda (if available)
+   conda create -n aiml-workshop python=3.9
+   conda activate aiml-workshop
+   ```
+
+5. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+6. **Configure API Keys**
+   ```bash
+   cd DataCollection
+   cp config/.env.example config/.env
+   # Edit config/.env and add your Google Gemini API key
+   ```
+
+7. **Verify Setup**
+   - Open Jupyter Lab
+   - Navigate to `DataCollection/notebooks/`
+   - Run `01_setup_and_test.ipynb` to verify installation 
 
 
 
 
 ____________________________________________________________________________________
 ## [Data Collection and Evaluation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/tree/main/DataCollection)
-- Follow along to create image dataset using Google Gemini API
-- OR Download the image dataset based on original data\
-  --- Original data not shared because of Instagram privacy policy
+
+**Status**: ✓ Fully Implemented
+
+Complete pipeline for generating synthetic social movement images with metadata.
+
+### What's Included
+
+- **5 Jupyter Notebooks**: Step-by-step workflow from setup to QA
+- **6 Python Modules**: Reusable components for data generation
+- **Configuration System**: Customizable parameters via YAML
+- **Rate Limiting**: Built-in API quota management
+- **Checkpointing**: Resume interrupted generation runs
+- **Quality Assurance**: Comprehensive validation and reporting
+
+### Quick Start
+
+```bash
+cd DataCollection/notebooks
+jupyter lab
+# Run notebooks in order: 01 → 02 → 03 → 04 → 05
+```
+
+### Notebooks Overview
+
+1. **01_setup_and_test.ipynb** - Environment validation and API testing
+2. **02_prepare_source_data.ipynb** - Fetch Atropia, World Bank, and social media data
+3. **03_generate_images.ipynb** - Generate synthetic images (configurable batch size)
+4. **04_generate_metadata.ipynb** - Create captions, labels, and comments
+5. **05_quality_assurance.ipynb** - Validate dataset and generate QA reports
+
+### Data Sources
+
+The pipeline combines three contextual data sources:
+
+1. **Atropia Data**: Fictional country news from U.S. military training scenarios
+2. **World Bank Synthetic Demographics**: Imaginary country demographic profiles
+3. **Social Media References**: Visual descriptions for realistic image generation
+
+### Output Dataset Structure
+
+```
+data/generated/
+├── images/              # PNG images
+├── captions/            # Descriptive captions (JSON)
+├── labels/              # Semantic labels (JSON)
+├── comments/            # Social media comments (JSON)
+├── metadata/            # Full generation provenance (JSON)
+├── all_captions.csv     # CSV export for analysis
+├── all_labels.csv       # CSV export for analysis
+└── all_comments.csv     # CSV export for analysis
+```
+
+### Cost Estimates
+
+Based on Google Gemini API pricing (free tier available):
+- 10 images: ~$0.01 USD
+- 50 images: ~$0.06 USD
+- 100 images: ~$0.12 USD
+- 200 images: ~$0.24 USD
+
+**Recommendation**: Start with 10-20 images for testing.
+
+### Documentation
+
+- Detailed instructions: [DataCollection/README.md](./DataCollection/README.md)
+- Project context: [CLAUDE.md](./CLAUDE.md)
+- Configuration guide: [DataCollection/config/](./DataCollection/config/)
+
+**Note**: Original social movement data not shared due to Instagram privacy policy. This pipeline generates synthetic alternatives.
 
 ## Data Exploration (Content Analysis)
 
