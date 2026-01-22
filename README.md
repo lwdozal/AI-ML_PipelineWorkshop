@@ -57,8 +57,16 @@ The synthetically generated images follow the topic of a specific case study, a 
 6. **Configure API Keys**
    ```bash
    cd DataCollection
-   cp config/.env.example config/.env
+   cp [config/.env.example] [config/.env] 
    # Edit config/.env and add your Google Gemini API key
+   
+   #create .gitigore file
+   #mac, linux, git terminal
+   touch .gitignore
+   #windows
+   echo > .gitignore
+
+   # add DataCollection/config/.env to .gitignore to save your api keys
    ```
 
 7. **Verify Setup**
