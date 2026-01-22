@@ -16,7 +16,9 @@ generation:
 
   # Gemini model for image generation
   # Options: "gemini-2.5-flash-image", "gemini-2.5-pro-image"
-  model: "gemini-2.5-flash-image"
+  # model: "gemini-2.5-flash-image"
+  # model: "gemini-2.5-pro-image"
+  model: "black-forest-labs/FLUX.1-schnell"
 
   # Aspect ratio for generated images
   # Options: "1:1", "16:9", "9:16", "4:3", "3:4"

@@ -1,22 +1,18 @@
-# AI/ML Pipeline Workshop - Synthetic Data Generation
-# Requirements for CyVerse Jupyter Lab PyTorch GPU environment
-# Python 3.8+
-
-# Google Gemini API
-google-generativeai>=0.3.0
-
 # Data Processing
 pandas>=1.5.0
 numpy>=1.23.0
 
 # Image Processing
 Pillow>=9.5.0
-# opencv-python>=4.7.0
 opencv-python
+diffusers
+transformers 
+accelerate 
+torch
+bitsandbytes
+
 
 # Configuration Management
-# python-dotenv>=1.0.0
-# PyYAML>=6.0
 python-dotenv
 PyYAML
 
@@ -24,14 +20,11 @@ PyYAML
 tqdm>=4.65.0pip
 
 # Visualization
-# matplotlib>=3.7.0
-# seaborn>=0.12.0
 matplotlib
 seaborn
 
 # Web Scraping (for Atropia data)
 requests>=2.31.0
-# beautifulsoup4>=4.12.0
 beautifulsoup4
 lxml>=4.9.0
 
@@ -44,6 +37,7 @@ jupyter>=1.0.0
 
 # Utilities
 python-dateutil>=2.8.0
+
 
 # Documentation (MkDocs)
 mkdocs>=1.5.0
