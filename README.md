@@ -101,12 +101,10 @@ jupyter lab
 ```
 
 ### Notebooks Overview
-
-1. **01_setup_and_test.ipynb** - Environment validation and API testing
-2. **02_prepare_source_data.ipynb** - Fetch Atropia, World Bank, and social media data
-3. **03_generate_images.ipynb** - Generate synthetic images (configurable batch size)
-4. **04_generate_metadata.ipynb** - Create captions, labels, and comments
-5. **05_quality_assurance.ipynb** - Validate dataset and generate QA reports
+- [Scenario Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/01_scenario_generation.ipynb)
+- [Synthetic (Image) Data Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/02_generate_synth_images.ipynb)
+- **04_generate_metadata.ipynb** - Create captions, labels, and comments
+- **05_quality_assurance.ipynb** - Validate dataset and generate QA reports
 
 ### Data Sources
 
@@ -130,7 +128,7 @@ data/generated/
 └── all_comments.csv     # CSV export for analysis
 ```
 
-### Cost Estimates
+<!-- ### Cost Estimates
 
 Based on Google Gemini API pricing (free tier available):
 - 10 images: ~$0.01 USD
@@ -138,17 +136,17 @@ Based on Google Gemini API pricing (free tier available):
 - 100 images: ~$0.12 USD
 - 200 images: ~$0.24 USD
 
-**Recommendation**: Start with 10-20 images for testing.
+**Recommendation**: Start with 10-20 images for testing. -->
 
 ### Documentation
 
 - Detailed instructions: [DataCollection/README.md](./DataCollection/README.md)
-- Project context: [CLAUDE.md](./CLAUDE.md)
+<!-- - Project context: [CLAUDE.md](./CLAUDE.md) -->
 - Configuration guide: [DataCollection/config/](./DataCollection/config/)
 
 **Note**: Original social movement data not shared due to Instagram privacy policy. This pipeline generates synthetic alternatives.
 
-## Data Exploration (Content Analysis)
+<!-- ## Data Exploration (Content Analysis)
 
 ## [Model Development](https://github.com/lwdozal/Dissertation_AI_Workbench/tree/main/Step1_Pattern_Detection)
 
@@ -176,14 +174,15 @@ PIL, Requests, pydantic, open-cv, os \
 langchain core and openai, \ -->
 
 
-## Model Deployment
+<!-- ## Model Deployment
 
 ### Narrative Structure and Community Detection
 
 Identify Semantic similarities by creating and evaluating structural graphs (content-based knowledge representation) 
 - Viz_weights + generated label_weights
 - Viz_weights & generated label_weights + generated captions
-- Viz_weights & generated label_weights + generated captions & original post comments
+- Viz_weights & generated label_weights + generated captions & original post comments  -->
+-->
 
 <!-- 
 Community Detection (Evaluation of Network Structure):
