@@ -27,6 +27,8 @@ The synthetically generated images follow the topic of a specific case study, a 
    - Go to Instant Launches Section
    - Select "Jupyter Lab PyTorch GPU"
    - Wait for environment to initialize
+  
+### General Set-up (No need to enroll in the workshop if not present day-of Janurary 23rd)
 
 3. **Clone the Repository**
    ```bash
@@ -37,14 +39,15 @@ The synthetically generated images follow the topic of a specific case study, a 
 
 4. **Create Virtual Environment**
    ```bash
-   # Option 1: Using venv
-   python -m venv venv
+   # Using venv
+   python -m venv venvname
    source venv/bin/activate
-
-   # Option 2: Using conda (if available)
-   conda create -n aiml-workshop python=3.9
-   conda activate aiml-workshop
    ```
+
+<!--    # Using conda (if available)
+   conda create -n aiml-workshop python=3.9
+   conda activate aiml-workshop -->
+   
 
 5. **Install Dependencies**
    ```bash
