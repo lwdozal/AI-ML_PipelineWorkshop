@@ -2,54 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/</loc>
-         <lastmod>2026-01-21</lastmod>
+         <lastmod>2026-01-22</lastmod>
     </url>
     <url>
          <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/Data_Management_Plan/</loc>
-         <lastmod>2026-01-21</lastmod>
+         <lastmod>2026-01-22</lastmod>
     </url>
     <url>
          <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/Governance_Operations/</loc>
-         <lastmod>2026-01-21</lastmod>
+         <lastmod>2026-01-22</lastmod>
     </url>
     <url>
          <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/cyverse_account/</loc>
-         <lastmod>2026-01-21</lastmod>
+         <lastmod>2026-01-22</lastmod>
     </url>
     <url>
          <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/data_collection/</loc>
-         <lastmod>2026-01-21</lastmod>
+         <lastmod>2026-01-22</lastmod>
     </url>
     <url>
          <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/model_deployment/</loc>
-         <lastmod>2026-01-21</lastmod>
+         <lastmod>2026-01-22</lastmod>
     </url>
     <url>
          <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/model_development/</loc>
-         <lastmod>2026-01-21</lastmod>
+         <lastmod>2026-01-22</lastmod>
     </url>
     <url>
          <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/setup/</loc>
-         <lastmod>2026-01-21</lastmod>
-    </url>
-    <url>
-         <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/notebooks/01_setup_and_test/</loc>
-         <lastmod>2026-01-21</lastmod>
-    </url>
-    <url>
-         <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/notebooks/02_prepare_source_data/</loc>
-         <lastmod>2026-01-21</lastmod>
-    </url>
-    <url>
-         <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/notebooks/03_generate_images/</loc>
-         <lastmod>2026-01-21</lastmod>
-    </url>
-    <url>
-         <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/notebooks/04_generate_metadata/</loc>
-         <lastmod>2026-01-21</lastmod>
-    </url>
-    <url>
-         <loc>https://lwdozal.github.io/AI-ML_PipelineWorkshop/notebooks/05_quality_assurance/</loc>
-         <lastmod>2026-01-21</lastmod>
+         <lastmod>2026-01-22</lastmod>
     </url>
 </urlset>
