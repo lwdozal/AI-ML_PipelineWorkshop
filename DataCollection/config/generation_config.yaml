@@ -49,6 +49,7 @@ prompts:
     - community_gathering
     - grassroots_organizing
     - demonstrations
+    - social media post
 
   # Settings (urban/rural mix)
   settings:
@@ -58,6 +59,8 @@ prompts:
     - government_building
     - public_park
     - street_march
+    - online comments
+    - digital posts
 
 metadata:
   # Number of social media-style comments per image
@@ -81,6 +84,9 @@ metadata:
     - time_of_day
     - sentiment
     - primary_subjects
+    - digital text
+    - informational
+    - illustrations
 
 rate_limiting:
   # Requests per minute (conservative for free tier)
@@ -115,6 +121,7 @@ source_data:
       - elections
       - civil_society
       - government_response
+      - gender_violence
 
   # World Bank data configuration
   worldbank:
@@ -125,6 +132,7 @@ source_data:
       - education_level
       - urban_rural
       - household_composition
+      - gender
 
     # Number of demographic profiles to generate
     num_profiles: 50
