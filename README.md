@@ -54,7 +54,7 @@ The synthetically generated images follow the topic of a specific case study, a 
    pip install -r requirements.txt
    ```
 
-6. **Configure API Keys**
+6. **Configure API Keys Create .gitignore**
    ```bash
    cd DataCollection
    cp [config/.env.example] [config/.env] 
@@ -80,18 +80,17 @@ The synthetically generated images follow the topic of a specific case study, a 
 ____________________________________________________________________________________
 ## [Data Collection and Evaluation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/tree/main/DataCollection)
 
-**Status**: ✓ Fully Implemented
 
 Complete pipeline for generating synthetic social movement images with metadata.
 
 ### What's Included
 
-- **5 Jupyter Notebooks**: Step-by-step workflow from setup to QA
+<!-- - **5 Jupyter Notebooks**: Step-by-step workflow from setup to QA
 - **6 Python Modules**: Reusable components for data generation
 - **Configuration System**: Customizable parameters via YAML
 - **Rate Limiting**: Built-in API quota management
 - **Checkpointing**: Resume interrupted generation runs
-- **Quality Assurance**: Comprehensive validation and reporting
+- **Quality Assurance**: Comprehensive validation and reporting -->
 
 ### Quick Start
 
