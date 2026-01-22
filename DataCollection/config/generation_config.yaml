@@ -132,7 +132,7 @@ source_data:
   # Social media reference configuration
   social_media:
     # If using image references, max number to sample
-    max_reference_images: 20
+    max_reference_images: 50
 
     # If using text descriptions, sample size
     max_descriptions: 50

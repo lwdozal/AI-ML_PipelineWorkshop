@@ -1,802 +1,802 @@
 [
   {
     "id": "atropia_001",
-    "title": "Atropia News: Protests",
-    "excerpt": "Citizens gather in Market District to protest government transparency. Demonstrators call for government accountability.",
-    "date": "2025-04-15",
-    "theme": "protests",
-    "location": "Market District"
+    "title": "Atropia News: Social Movements",
+    "excerpt": "Government announces new policy regarding minority rights. Civil society groups express strong support.",
+    "date": "2025-05-19",
+    "theme": "social_movements",
+    "location": "University District"
   },
   {
     "id": "atropia_002",
     "title": "Atropia News: Political Unrest",
-    "excerpt": "Workers union leads march through University District protesting education funding.",
-    "date": "2025-11-16",
+    "excerpt": "Women march through Market District protesting environmental policy garnering strong support drawing hundreds of.",
+    "date": "2025-06-16",
     "theme": "political_unrest",
-    "location": "University District"
+    "location": "Market District"
   },
   {
     "id": "atropia_003",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Tensions rise in Government Quarter as protesters clash with authorities over education funding.",
-    "date": "2025-05-28",
-    "theme": "economic_conditions",
-    "location": "Government Quarter"
+    "title": "Atropia News: Social Movements",
+    "excerpt": "Workers union leads march through Industrial Zone protesting minority rights.",
+    "date": "2025-12-11",
+    "theme": "social_movements",
+    "location": "Industrial Zone"
   },
   {
     "id": "atropia_004",
-    "title": "Atropia News: Civil Society",
-    "excerpt": "Opposition party stages demonstration in Pineland Province. Key demands include constitutional changes.",
-    "date": "2025-08-21",
-    "theme": "civil_society",
-    "location": "Pineland Province"
+    "title": "Atropia News: Protests",
+    "excerpt": "Student groups organize sit-in at Downtown to demand equal representation.",
+    "date": "2025-11-24",
+    "theme": "protests",
+    "location": "Downtown"
   },
   {
     "id": "atropia_005",
     "title": "Atropia News: Economic Conditions",
-    "excerpt": "Opposition party stages demonstration in Pineland Province. Key demands include institutional transparency.",
-    "date": "2025-03-13",
+    "excerpt": "Online messaging for a voting rights pushes for government accountability getting attention from thousands of.",
+    "date": "2025-07-03",
     "theme": "economic_conditions",
-    "location": "Pineland Province"
+    "location": "Market District"
   },
   {
     "id": "atropia_006",
-    "title": "Atropia News: Social Movements",
-    "excerpt": "Workers union leads march through Market District protesting economic reforms.",
-    "date": "2025-06-07",
-    "theme": "social_movements",
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Community organizers mobilize in Market District around issues of healthcare access.",
+    "date": "2025-05-20",
+    "theme": "civil_society",
     "location": "Market District"
   },
   {
     "id": "atropia_007",
-    "title": "Atropia News: Social Movements",
-    "excerpt": "Citizens gather in Government Quarter to protest civil liberties. Demonstrators call for immediate reforms.",
-    "date": "2025-02-17",
-    "theme": "social_movements",
-    "location": "Government Quarter"
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Electoral campaign intensifies in Atropia City (capital) with rallies drawing hundreds of supporters.",
+    "date": "2025-02-13",
+    "theme": "civil_society",
+    "location": "Atropia City (capital)"
   },
   {
     "id": "atropia_008",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Electoral campaign intensifies in Government Quarter with rallies drawing over a thousand supporters.",
-    "date": "2025-06-20",
-    "theme": "economic_conditions",
-    "location": "Government Quarter"
+    "title": "Atropia News: Protests",
+    "excerpt": "Electoral campaign intensifies in University District with rallies drawing over a thousand supporters.",
+    "date": "2025-03-12",
+    "theme": "protests",
+    "location": "University District"
   },
   {
     "id": "atropia_009",
-    "title": "Atropia News: Social Movements",
-    "excerpt": "Citizens gather in Donovia Border Region to protest education funding. Demonstrators call for equal representation.",
-    "date": "2025-04-27",
-    "theme": "social_movements",
-    "location": "Donovia Border Region"
-  },
-  {
-    "id": "atropia_010",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Large rally held in Pineland Province with estimated over a thousand participants. Focus on healthcare access.",
-    "date": "2025-12-23",
-    "theme": "economic_conditions",
-    "location": "Pineland Province"
-  },
-  {
-    "id": "atropia_011",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Citizens gather in Market District to protest corruption. Demonstrators call for free and fair elections.",
-    "date": "2025-05-06",
-    "theme": "economic_conditions",
-    "location": "Market District"
-  },
-  {
-    "id": "atropia_012",
-    "title": "Atropia News: Social Movements",
-    "excerpt": "Community organizers mobilize in Pineland Province around issues of voting rights.",
-    "date": "2025-10-15",
-    "theme": "social_movements",
-    "location": "Pineland Province"
-  },
-  {
-    "id": "atropia_013",
     "title": "Atropia News: Elections",
-    "excerpt": "Community organizers mobilize in Atropia City (capital) around issues of economic reforms.",
-    "date": "2025-12-03",
+    "excerpt": "Workers union leads march through Atropia City (capital) protesting minority rights.",
+    "date": "2025-10-13",
     "theme": "elections",
     "location": "Atropia City (capital)"
   },
   {
+    "id": "atropia_010",
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Government announces new policy regarding education funding. Civil society groups express strong support.",
+    "date": "2025-12-08",
+    "theme": "economic_conditions",
+    "location": "Market District"
+  },
+  {
+    "id": "atropia_011",
+    "title": "Atropia News: Protests",
+    "excerpt": "Citizens gather in University District to protest voting rights. Demonstrators call for free and fair elections.",
+    "date": "2025-01-18",
+    "theme": "protests",
+    "location": "University District"
+  },
+  {
+    "id": "atropia_012",
+    "title": "Atropia News: Protests",
+    "excerpt": "Women march through Donovia Border Region protesting environmental policy garnering cautious optimism drawing several hundred.",
+    "date": "2025-03-26",
+    "theme": "protests",
+    "location": "Donovia Border Region"
+  },
+  {
+    "id": "atropia_013",
+    "title": "Atropia News: Elections",
+    "excerpt": "Online messaging for a corruption pushes for institutional transparency getting attention from over a thousand.",
+    "date": "2025-09-04",
+    "theme": "elections",
+    "location": "Pineland Province"
+  },
+  {
     "id": "atropia_014",
-    "title": "Atropia News: Civil Society",
-    "excerpt": "Citizens gather in University District to protest corruption. Demonstrators call for institutional transparency.",
-    "date": "2025-07-15",
-    "theme": "civil_society",
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Online messaging for a minority rights pushes for immediate reforms getting attention from hundreds of.",
+    "date": "2025-08-08",
+    "theme": "economic_conditions",
     "location": "University District"
   },
   {
     "id": "atropia_015",
     "title": "Atropia News: Political Unrest",
-    "excerpt": "Tensions rise in University District as protesters clash with authorities over voting rights.",
-    "date": "2025-12-15",
+    "excerpt": "Opposition party stages demonstration in University District. Key demands include gender equality.",
+    "date": "2025-04-28",
     "theme": "political_unrest",
     "location": "University District"
   },
   {
     "id": "atropia_016",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Workers union leads march through University District protesting voting rights.",
-    "date": "2025-10-17",
-    "theme": "economic_conditions",
-    "location": "University District"
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Tensions rise in Atropia City (capital) as protesters clash with authorities over economic reforms.",
+    "date": "2025-11-15",
+    "theme": "civil_society",
+    "location": "Atropia City (capital)"
   },
   {
     "id": "atropia_017",
-    "title": "Atropia News: Political Unrest",
-    "excerpt": "Electoral campaign intensifies in Government Quarter with rallies drawing several hundred supporters.",
-    "date": "2025-05-15",
-    "theme": "political_unrest",
-    "location": "Government Quarter"
+    "title": "Atropia News: Social Movements",
+    "excerpt": "Student groups organize sit-in at Pineland Province to demand economic justice.",
+    "date": "2025-04-25",
+    "theme": "social_movements",
+    "location": "Pineland Province"
   },
   {
     "id": "atropia_018",
-    "title": "Atropia News: Social Movements",
-    "excerpt": "Tensions rise in Atropia City (capital) as protesters clash with authorities over labor conditions.",
-    "date": "2025-04-10",
-    "theme": "social_movements",
-    "location": "Atropia City (capital)"
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Workers union leads march through Downtown protesting healthcare access.",
+    "date": "2025-06-24",
+    "theme": "economic_conditions",
+    "location": "Downtown"
   },
   {
     "id": "atropia_019",
     "title": "Atropia News: Political Unrest",
-    "excerpt": "Community organizers mobilize in Atropia City (capital) around issues of environmental policy.",
-    "date": "2025-11-16",
+    "excerpt": "Government announces new policy regarding civil liberties. Civil society groups express serious concerns.",
+    "date": "2025-05-07",
     "theme": "political_unrest",
     "location": "Atropia City (capital)"
   },
   {
     "id": "atropia_020",
-    "title": "Atropia News: Elections",
-    "excerpt": "Student groups organize sit-in at Atropia City (capital) to demand immediate reforms.",
-    "date": "2025-07-16",
-    "theme": "elections",
-    "location": "Atropia City (capital)"
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Government announces new policy regarding civil liberties. Civil society groups express mixed reactions.",
+    "date": "2025-02-22",
+    "theme": "economic_conditions",
+    "location": "University District"
   },
   {
     "id": "atropia_021",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Workers union leads march through Pineland Province protesting corruption.",
-    "date": "2025-10-16",
-    "theme": "economic_conditions",
-    "location": "Pineland Province"
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Tensions rise in Market District as protesters clash with authorities over government transparency.",
+    "date": "2025-10-19",
+    "theme": "civil_society",
+    "location": "Market District"
   },
   {
     "id": "atropia_022",
-    "title": "Atropia News: Social Movements",
-    "excerpt": "Electoral campaign intensifies in Industrial Zone with rallies drawing thousands of supporters.",
-    "date": "2025-12-05",
-    "theme": "social_movements",
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Grassroots movement gains momentum in Industrial Zone, advocating for economic justice.",
+    "date": "2025-06-27",
+    "theme": "economic_conditions",
     "location": "Industrial Zone"
   },
   {
     "id": "atropia_023",
-    "title": "Atropia News: Political Unrest",
-    "excerpt": "Workers union leads march through Atropia City (capital) protesting minority rights.",
-    "date": "2025-02-04",
-    "theme": "political_unrest",
-    "location": "Atropia City (capital)"
+    "title": "Atropia News: Elections",
+    "excerpt": "Community organizers mobilize in Industrial Zone around issues of environmental policy.",
+    "date": "2025-12-23",
+    "theme": "elections",
+    "location": "Industrial Zone"
   },
   {
     "id": "atropia_024",
-    "title": "Atropia News: Elections",
-    "excerpt": "Student groups organize sit-in at Market District to demand government accountability.",
-    "date": "2025-09-13",
-    "theme": "elections",
-    "location": "Market District"
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Large rally held in Donovia Border Region with estimated over a thousand participants. Focus on education funding.",
+    "date": "2025-11-28",
+    "theme": "civil_society",
+    "location": "Donovia Border Region"
   },
   {
     "id": "atropia_025",
-    "title": "Atropia News: Elections",
-    "excerpt": "Opposition party stages demonstration in Atropia City (capital). Key demands include policy reversal.",
-    "date": "2025-04-28",
-    "theme": "elections",
-    "location": "Atropia City (capital)"
+    "title": "Atropia News: Government Response",
+    "excerpt": "Government announces new policy regarding economic reforms. Civil society groups express cautious optimism.",
+    "date": "2025-07-05",
+    "theme": "government_response",
+    "location": "Market District"
   },
   {
     "id": "atropia_026",
-    "title": "Atropia News: Social Movements",
-    "excerpt": "Grassroots movement gains momentum in University District, advocating for institutional transparency.",
-    "date": "2025-07-12",
-    "theme": "social_movements",
-    "location": "University District"
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Community organizers mobilize in Market District around issues of minority rights.",
+    "date": "2025-09-14",
+    "theme": "civil_society",
+    "location": "Market District"
   },
   {
     "id": "atropia_027",
-    "title": "Atropia News: Protests",
-    "excerpt": "Large rally held in Government Quarter with estimated hundreds of participants. Focus on government transparency.",
-    "date": "2025-03-04",
-    "theme": "protests",
-    "location": "Government Quarter"
+    "title": "Atropia News: Elections",
+    "excerpt": "Workers union leads march through Downtown protesting economic reforms.",
+    "date": "2025-06-18",
+    "theme": "elections",
+    "location": "Downtown"
   },
   {
     "id": "atropia_028",
     "title": "Atropia News: Protests",
-    "excerpt": "Opposition party stages demonstration in Market District. Key demands include policy reversal.",
-    "date": "2025-05-20",
+    "excerpt": "Opposition party stages demonstration in Market District. Key demands include institutional transparency.",
+    "date": "2025-03-26",
     "theme": "protests",
     "location": "Market District"
   },
   {
     "id": "atropia_029",
-    "title": "Atropia News: Elections",
-    "excerpt": "Electoral campaign intensifies in Industrial Zone with rallies drawing several hundred supporters.",
-    "date": "2025-05-06",
-    "theme": "elections",
-    "location": "Industrial Zone"
+    "title": "Atropia News: Government Response",
+    "excerpt": "Grassroots movement gains momentum in Donovia Border Region, advocating for immediate reforms.",
+    "date": "2025-09-19",
+    "theme": "government_response",
+    "location": "Donovia Border Region"
   },
   {
     "id": "atropia_030",
-    "title": "Atropia News: Elections",
-    "excerpt": "Opposition party stages demonstration in Government Quarter. Key demands include immediate reforms.",
-    "date": "2025-12-11",
-    "theme": "elections",
-    "location": "Government Quarter"
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Grassroots movement gains momentum in Pineland Province, advocating for equal representation.",
+    "date": "2025-02-12",
+    "theme": "economic_conditions",
+    "location": "Pineland Province"
   },
   {
     "id": "atropia_031",
     "title": "Atropia News: Government Response",
-    "excerpt": "Tensions rise in Government Quarter as protesters clash with authorities over healthcare access.",
-    "date": "2025-01-20",
+    "excerpt": "Large rally held in Government Quarter with estimated hundreds of participants. Focus on voting rights.",
+    "date": "2025-04-11",
     "theme": "government_response",
     "location": "Government Quarter"
   },
   {
     "id": "atropia_032",
-    "title": "Atropia News: Political Unrest",
-    "excerpt": "Electoral campaign intensifies in Donovia Border Region with rallies drawing several hundred supporters.",
-    "date": "2025-08-17",
-    "theme": "political_unrest",
-    "location": "Donovia Border Region"
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Online messaging for a healthcare access pushes for economic justice getting attention from hundreds of.",
+    "date": "2025-04-19",
+    "theme": "economic_conditions",
+    "location": "Industrial Zone"
   },
   {
     "id": "atropia_033",
     "title": "Atropia News: Civil Society",
-    "excerpt": "Government announces new policy regarding environmental policy. Civil society groups express strong support.",
-    "date": "2025-09-04",
+    "excerpt": "Women march through University District protesting education funding garnering cautious optimism drawing thousands of.",
+    "date": "2025-07-06",
     "theme": "civil_society",
-    "location": "Industrial Zone"
+    "location": "University District"
   },
   {
     "id": "atropia_034",
-    "title": "Atropia News: Elections",
-    "excerpt": "Government announces new policy regarding healthcare access. Civil society groups express serious concerns.",
-    "date": "2025-02-17",
-    "theme": "elections",
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Women march through Government Quarter protesting corruption garnering cautious optimism drawing several hundred.",
+    "date": "2025-03-07",
+    "theme": "civil_society",
     "location": "Government Quarter"
   },
   {
     "id": "atropia_035",
-    "title": "Atropia News: Political Unrest",
-    "excerpt": "Workers union leads march through Industrial Zone protesting economic reforms.",
-    "date": "2025-04-22",
-    "theme": "political_unrest",
-    "location": "Industrial Zone"
-  },
-  {
-    "id": "atropia_036",
-    "title": "Atropia News: Political Unrest",
-    "excerpt": "Tensions rise in Industrial Zone as protesters clash with authorities over education funding.",
-    "date": "2025-02-10",
-    "theme": "political_unrest",
-    "location": "Industrial Zone"
-  },
-  {
-    "id": "atropia_037",
-    "title": "Atropia News: Civil Society",
-    "excerpt": "Student groups organize sit-in at Atropia City (capital) to demand policy reversal.",
-    "date": "2025-08-24",
-    "theme": "civil_society",
-    "location": "Atropia City (capital)"
-  },
-  {
-    "id": "atropia_038",
-    "title": "Atropia News: Civil Society",
-    "excerpt": "Student groups organize sit-in at Market District to demand government accountability.",
-    "date": "2025-07-25",
-    "theme": "civil_society",
+    "title": "Atropia News: Government Response",
+    "excerpt": "Electoral campaign intensifies in Market District with rallies drawing over a thousand supporters.",
+    "date": "2025-07-26",
+    "theme": "government_response",
     "location": "Market District"
   },
   {
-    "id": "atropia_039",
+    "id": "atropia_036",
     "title": "Atropia News: Elections",
-    "excerpt": "Opposition party stages demonstration in Atropia City (capital). Key demands include economic justice.",
-    "date": "2025-06-05",
+    "excerpt": "Grassroots movement gains momentum in Pineland Province, advocating for free and fair elections.",
+    "date": "2025-06-28",
     "theme": "elections",
-    "location": "Atropia City (capital)"
-  },
-  {
-    "id": "atropia_040",
-    "title": "Atropia News: Social Movements",
-    "excerpt": "Large rally held in Pineland Province with estimated thousands of participants. Focus on environmental policy.",
-    "date": "2025-05-15",
-    "theme": "social_movements",
     "location": "Pineland Province"
   },
   {
+    "id": "atropia_037",
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Student groups organize sit-in at Government Quarter to demand gender equality.",
+    "date": "2025-03-09",
+    "theme": "economic_conditions",
+    "location": "Government Quarter"
+  },
+  {
+    "id": "atropia_038",
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Student groups organize sit-in at Donovia Border Region to demand equal representation.",
+    "date": "2025-03-25",
+    "theme": "economic_conditions",
+    "location": "Donovia Border Region"
+  },
+  {
+    "id": "atropia_039",
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Citizens gather in University District to protest economic reforms. Demonstrators call for free and fair elections.",
+    "date": "2025-08-25",
+    "theme": "economic_conditions",
+    "location": "University District"
+  },
+  {
+    "id": "atropia_040",
+    "title": "Atropia News: Government Response",
+    "excerpt": "Tensions rise in University District as protesters clash with authorities over gender_violence.",
+    "date": "2025-05-21",
+    "theme": "government_response",
+    "location": "University District"
+  },
+  {
     "id": "atropia_041",
-    "title": "Atropia News: Protests",
-    "excerpt": "Large rally held in Industrial Zone with estimated thousands of participants. Focus on healthcare access.",
-    "date": "2025-01-10",
-    "theme": "protests",
-    "location": "Industrial Zone"
+    "title": "Atropia News: Social Movements",
+    "excerpt": "Opposition party stages demonstration in Atropia City (capital). Key demands include institutional transparency.",
+    "date": "2025-08-05",
+    "theme": "social_movements",
+    "location": "Atropia City (capital)"
   },
   {
     "id": "atropia_042",
     "title": "Atropia News: Elections",
-    "excerpt": "Community organizers mobilize in Industrial Zone around issues of healthcare access.",
-    "date": "2025-09-23",
+    "excerpt": "Electoral campaign intensifies in Industrial Zone with rallies drawing hundreds of supporters.",
+    "date": "2025-03-04",
     "theme": "elections",
     "location": "Industrial Zone"
   },
   {
     "id": "atropia_043",
-    "title": "Atropia News: Government Response",
-    "excerpt": "Community organizers mobilize in Government Quarter around issues of healthcare access.",
-    "date": "2025-05-10",
-    "theme": "government_response",
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Workers union leads march through Government Quarter protesting healthcare access.",
+    "date": "2025-05-11",
+    "theme": "economic_conditions",
     "location": "Government Quarter"
   },
   {
     "id": "atropia_044",
-    "title": "Atropia News: Protests",
-    "excerpt": "Workers union leads march through Government Quarter protesting economic reforms.",
-    "date": "2025-06-02",
-    "theme": "protests",
-    "location": "Government Quarter"
+    "title": "Atropia News: Elections",
+    "excerpt": "Government announces new policy regarding labor conditions. Civil society groups express strong support.",
+    "date": "2025-01-19",
+    "theme": "elections",
+    "location": "University District"
   },
   {
     "id": "atropia_045",
-    "title": "Atropia News: Government Response",
-    "excerpt": "Electoral campaign intensifies in University District with rallies drawing hundreds of supporters.",
-    "date": "2025-05-28",
-    "theme": "government_response",
-    "location": "University District"
+    "title": "Atropia News: Protests",
+    "excerpt": "Community organizers mobilize in Pineland Province around issues of government transparency.",
+    "date": "2025-06-20",
+    "theme": "protests",
+    "location": "Pineland Province"
   },
   {
     "id": "atropia_046",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Grassroots movement gains momentum in University District, advocating for constitutional changes.",
-    "date": "2025-04-14",
-    "theme": "economic_conditions",
-    "location": "University District"
+    "title": "Atropia News: Government Response",
+    "excerpt": "Women march through Pineland Province protesting government transparency garnering cautious optimism drawing several hundred.",
+    "date": "2025-11-04",
+    "theme": "government_response",
+    "location": "Pineland Province"
   },
   {
     "id": "atropia_047",
     "title": "Atropia News: Protests",
-    "excerpt": "Electoral campaign intensifies in Government Quarter with rallies drawing thousands of supporters.",
-    "date": "2025-05-04",
+    "excerpt": "Tensions rise in Pineland Province as protesters clash with authorities over government transparency.",
+    "date": "2025-05-19",
     "theme": "protests",
-    "location": "Government Quarter"
+    "location": "Pineland Province"
   },
   {
     "id": "atropia_048",
     "title": "Atropia News: Government Response",
-    "excerpt": "Large rally held in Government Quarter with estimated over a thousand participants. Focus on minority rights.",
-    "date": "2025-10-21",
+    "excerpt": "Tensions rise in Industrial Zone as protesters clash with authorities over labor conditions.",
+    "date": "2025-12-08",
     "theme": "government_response",
-    "location": "Government Quarter"
+    "location": "Industrial Zone"
   },
   {
     "id": "atropia_049",
-    "title": "Atropia News: Political Unrest",
-    "excerpt": "Community organizers mobilize in Government Quarter around issues of voting rights.",
-    "date": "2025-06-16",
-    "theme": "political_unrest",
-    "location": "Government Quarter"
+    "title": "Atropia News: Protests",
+    "excerpt": "Grassroots movement gains momentum in University District, advocating for policy reversal.",
+    "date": "2025-01-19",
+    "theme": "protests",
+    "location": "University District"
   },
   {
     "id": "atropia_050",
-    "title": "Atropia News: Political Unrest",
-    "excerpt": "Large rally held in Government Quarter with estimated over a thousand participants. Focus on government transparency.",
-    "date": "2025-03-16",
-    "theme": "political_unrest",
-    "location": "Government Quarter"
+    "title": "Atropia News: Elections",
+    "excerpt": "Community organizers mobilize in University District around issues of corruption.",
+    "date": "2025-02-17",
+    "theme": "elections",
+    "location": "University District"
   },
   {
     "id": "atropia_051",
-    "title": "Atropia News: Government Response",
-    "excerpt": "Citizens gather in Donovia Border Region to protest education funding. Demonstrators call for policy reversal.",
-    "date": "2025-08-12",
-    "theme": "government_response",
-    "location": "Donovia Border Region"
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Citizens gather in Downtown to protest labor conditions. Demonstrators call for policy reversal.",
+    "date": "2025-11-24",
+    "theme": "civil_society",
+    "location": "Downtown"
   },
   {
     "id": "atropia_052",
-    "title": "Atropia News: Protests",
-    "excerpt": "Grassroots movement gains momentum in Pineland Province, advocating for free and fair elections.",
-    "date": "2025-08-04",
-    "theme": "protests",
-    "location": "Pineland Province"
+    "title": "Atropia News: Elections",
+    "excerpt": "Community organizers mobilize in Industrial Zone around issues of environmental policy.",
+    "date": "2025-01-21",
+    "theme": "elections",
+    "location": "Industrial Zone"
   },
   {
     "id": "atropia_053",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Tensions rise in University District as protesters clash with authorities over healthcare access.",
-    "date": "2025-07-24",
-    "theme": "economic_conditions",
-    "location": "University District"
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Workers union leads march through Downtown protesting labor conditions.",
+    "date": "2025-02-14",
+    "theme": "civil_society",
+    "location": "Downtown"
   },
   {
     "id": "atropia_054",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Opposition party stages demonstration in University District. Key demands include economic justice.",
-    "date": "2025-10-03",
-    "theme": "economic_conditions",
-    "location": "University District"
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Tensions rise in Atropia City (capital) as protesters clash with authorities over minority rights.",
+    "date": "2025-02-08",
+    "theme": "civil_society",
+    "location": "Atropia City (capital)"
   },
   {
     "id": "atropia_055",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Tensions rise in Government Quarter as protesters clash with authorities over government transparency.",
-    "date": "2025-02-16",
-    "theme": "economic_conditions",
-    "location": "Government Quarter"
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Government announces new policy regarding education funding. Civil society groups express serious concerns.",
+    "date": "2025-05-01",
+    "theme": "civil_society",
+    "location": "Downtown"
   },
   {
     "id": "atropia_056",
     "title": "Atropia News: Political Unrest",
-    "excerpt": "Government announces new policy regarding voting rights. Civil society groups express serious concerns.",
-    "date": "2025-02-08",
+    "excerpt": "Citizens gather in University District to protest government transparency. Demonstrators call for gender equality.",
+    "date": "2025-07-01",
     "theme": "political_unrest",
-    "location": "Industrial Zone"
+    "location": "University District"
   },
   {
     "id": "atropia_057",
-    "title": "Atropia News: Civil Society",
-    "excerpt": "Student groups organize sit-in at Market District to demand government accountability.",
-    "date": "2025-02-06",
-    "theme": "civil_society",
-    "location": "Market District"
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Grassroots movement gains momentum in Donovia Border Region, advocating for policy reversal.",
+    "date": "2025-03-27",
+    "theme": "economic_conditions",
+    "location": "Donovia Border Region"
   },
   {
     "id": "atropia_058",
-    "title": "Atropia News: Elections",
-    "excerpt": "Electoral campaign intensifies in Atropia City (capital) with rallies drawing thousands of supporters.",
-    "date": "2025-03-05",
-    "theme": "elections",
-    "location": "Atropia City (capital)"
-  },
-  {
-    "id": "atropia_059",
-    "title": "Atropia News: Civil Society",
-    "excerpt": "Tensions rise in Pineland Province as protesters clash with authorities over civil liberties.",
-    "date": "2025-11-12",
-    "theme": "civil_society",
-    "location": "Pineland Province"
-  },
-  {
-    "id": "atropia_060",
-    "title": "Atropia News: Government Response",
-    "excerpt": "Student groups organize sit-in at University District to demand immediate reforms.",
-    "date": "2025-08-15",
-    "theme": "government_response",
-    "location": "University District"
-  },
-  {
-    "id": "atropia_061",
-    "title": "Atropia News: Government Response",
-    "excerpt": "Electoral campaign intensifies in Donovia Border Region with rallies drawing thousands of supporters.",
-    "date": "2025-12-08",
-    "theme": "government_response",
-    "location": "Donovia Border Region"
-  },
-  {
-    "id": "atropia_062",
-    "title": "Atropia News: Government Response",
-    "excerpt": "Grassroots movement gains momentum in Atropia City (capital), advocating for institutional transparency.",
-    "date": "2025-12-02",
-    "theme": "government_response",
-    "location": "Atropia City (capital)"
-  },
-  {
-    "id": "atropia_063",
-    "title": "Atropia News: Protests",
-    "excerpt": "Workers union leads march through University District protesting labor conditions.",
-    "date": "2025-05-15",
-    "theme": "protests",
-    "location": "University District"
-  },
-  {
-    "id": "atropia_064",
-    "title": "Atropia News: Elections",
-    "excerpt": "Government announces new policy regarding voting rights. Civil society groups express cautious optimism.",
-    "date": "2025-01-21",
-    "theme": "elections",
-    "location": "Pineland Province"
-  },
-  {
-    "id": "atropia_065",
-    "title": "Atropia News: Government Response",
-    "excerpt": "Opposition party stages demonstration in Industrial Zone. Key demands include policy reversal.",
-    "date": "2025-12-20",
-    "theme": "government_response",
-    "location": "Industrial Zone"
-  },
-  {
-    "id": "atropia_066",
-    "title": "Atropia News: Elections",
-    "excerpt": "Large rally held in Government Quarter with estimated several hundred participants. Focus on civil liberties.",
-    "date": "2025-09-09",
-    "theme": "elections",
-    "location": "Government Quarter"
-  },
-  {
-    "id": "atropia_067",
-    "title": "Atropia News: Protests",
-    "excerpt": "Community organizers mobilize in Industrial Zone around issues of labor conditions.",
-    "date": "2025-08-10",
-    "theme": "protests",
-    "location": "Industrial Zone"
-  },
-  {
-    "id": "atropia_068",
-    "title": "Atropia News: Elections",
-    "excerpt": "Citizens gather in Donovia Border Region to protest minority rights. Demonstrators call for free and fair elections.",
-    "date": "2025-01-07",
-    "theme": "elections",
-    "location": "Donovia Border Region"
-  },
-  {
-    "id": "atropia_069",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Tensions rise in Atropia City (capital) as protesters clash with authorities over environmental policy.",
-    "date": "2025-02-18",
-    "theme": "economic_conditions",
-    "location": "Atropia City (capital)"
-  },
-  {
-    "id": "atropia_070",
-    "title": "Atropia News: Elections",
-    "excerpt": "Citizens gather in Atropia City (capital) to protest civil liberties. Demonstrators call for government accountability.",
-    "date": "2025-01-16",
-    "theme": "elections",
-    "location": "Atropia City (capital)"
-  },
-  {
-    "id": "atropia_071",
-    "title": "Atropia News: Government Response",
-    "excerpt": "Grassroots movement gains momentum in Atropia City (capital), advocating for institutional transparency.",
-    "date": "2025-02-10",
-    "theme": "government_response",
-    "location": "Atropia City (capital)"
-  },
-  {
-    "id": "atropia_072",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Electoral campaign intensifies in University District with rallies drawing hundreds of supporters.",
-    "date": "2025-04-15",
-    "theme": "economic_conditions",
-    "location": "University District"
-  },
-  {
-    "id": "atropia_073",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Government announces new policy regarding minority rights. Civil society groups express serious concerns.",
-    "date": "2025-11-06",
-    "theme": "economic_conditions",
-    "location": "Pineland Province"
-  },
-  {
-    "id": "atropia_074",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Grassroots movement gains momentum in Industrial Zone, advocating for economic justice.",
-    "date": "2025-12-17",
-    "theme": "economic_conditions",
-    "location": "Industrial Zone"
-  },
-  {
-    "id": "atropia_075",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Community organizers mobilize in Market District around issues of corruption.",
-    "date": "2025-01-24",
-    "theme": "economic_conditions",
-    "location": "Market District"
-  },
-  {
-    "id": "atropia_076",
-    "title": "Atropia News: Protests",
-    "excerpt": "Tensions rise in Industrial Zone as protesters clash with authorities over education funding.",
-    "date": "2025-06-23",
-    "theme": "protests",
-    "location": "Industrial Zone"
-  },
-  {
-    "id": "atropia_077",
-    "title": "Atropia News: Government Response",
-    "excerpt": "Grassroots movement gains momentum in Donovia Border Region, advocating for economic justice.",
-    "date": "2025-10-23",
-    "theme": "government_response",
-    "location": "Donovia Border Region"
-  },
-  {
-    "id": "atropia_078",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Electoral campaign intensifies in Government Quarter with rallies drawing thousands of supporters.",
-    "date": "2025-12-19",
-    "theme": "economic_conditions",
-    "location": "Government Quarter"
-  },
-  {
-    "id": "atropia_079",
-    "title": "Atropia News: Political Unrest",
-    "excerpt": "Electoral campaign intensifies in Donovia Border Region with rallies drawing several hundred supporters.",
-    "date": "2025-03-16",
-    "theme": "political_unrest",
-    "location": "Donovia Border Region"
-  },
-  {
-    "id": "atropia_080",
-    "title": "Atropia News: Civil Society",
-    "excerpt": "Large rally held in Donovia Border Region with estimated over a thousand participants. Focus on civil liberties.",
-    "date": "2025-07-25",
-    "theme": "civil_society",
-    "location": "Donovia Border Region"
-  },
-  {
-    "id": "atropia_081",
     "title": "Atropia News: Social Movements",
-    "excerpt": "Electoral campaign intensifies in Government Quarter with rallies drawing several hundred supporters.",
-    "date": "2025-01-09",
+    "excerpt": "Grassroots movement gains momentum in Government Quarter, advocating for free and fair elections.",
+    "date": "2025-04-25",
     "theme": "social_movements",
     "location": "Government Quarter"
   },
   {
-    "id": "atropia_082",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Opposition party stages demonstration in University District. Key demands include government accountability.",
-    "date": "2025-05-08",
-    "theme": "economic_conditions",
-    "location": "University District"
-  },
-  {
-    "id": "atropia_083",
+    "id": "atropia_059",
     "title": "Atropia News: Protests",
-    "excerpt": "Opposition party stages demonstration in Donovia Border Region. Key demands include institutional transparency.",
-    "date": "2025-11-09",
-    "theme": "protests",
-    "location": "Donovia Border Region"
-  },
-  {
-    "id": "atropia_084",
-    "title": "Atropia News: Protests",
-    "excerpt": "Citizens gather in Market District to protest labor conditions. Demonstrators call for constitutional changes.",
-    "date": "2025-11-10",
+    "excerpt": "Large rally held in Market District with estimated hundreds of participants. Focus on corruption.",
+    "date": "2025-07-13",
     "theme": "protests",
     "location": "Market District"
   },
   {
+    "id": "atropia_060",
+    "title": "Atropia News: Elections",
+    "excerpt": "Opposition party stages demonstration in Donovia Border Region. Key demands include immediate reforms.",
+    "date": "2025-10-04",
+    "theme": "elections",
+    "location": "Donovia Border Region"
+  },
+  {
+    "id": "atropia_061",
+    "title": "Atropia News: Social Movements",
+    "excerpt": "Citizens gather in Donovia Border Region to protest education funding. Demonstrators call for free and fair elections.",
+    "date": "2025-02-23",
+    "theme": "social_movements",
+    "location": "Donovia Border Region"
+  },
+  {
+    "id": "atropia_062",
+    "title": "Atropia News: Political Unrest",
+    "excerpt": "Student groups organize sit-in at University District to demand gender equality.",
+    "date": "2025-05-23",
+    "theme": "political_unrest",
+    "location": "University District"
+  },
+  {
+    "id": "atropia_063",
+    "title": "Atropia News: Elections",
+    "excerpt": "Community organizers mobilize in Atropia City (capital) around issues of environmental policy.",
+    "date": "2025-08-07",
+    "theme": "elections",
+    "location": "Atropia City (capital)"
+  },
+  {
+    "id": "atropia_064",
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Grassroots movement gains momentum in Government Quarter, advocating for institutional transparency.",
+    "date": "2025-12-19",
+    "theme": "civil_society",
+    "location": "Government Quarter"
+  },
+  {
+    "id": "atropia_065",
+    "title": "Atropia News: Government Response",
+    "excerpt": "Grassroots movement gains momentum in Market District, advocating for constitutional changes.",
+    "date": "2025-03-10",
+    "theme": "government_response",
+    "location": "Market District"
+  },
+  {
+    "id": "atropia_066",
+    "title": "Atropia News: Political Unrest",
+    "excerpt": "Women march through Market District protesting labor conditions garnering serious concerns drawing over a thousand.",
+    "date": "2025-06-25",
+    "theme": "political_unrest",
+    "location": "Market District"
+  },
+  {
+    "id": "atropia_067",
+    "title": "Atropia News: Political Unrest",
+    "excerpt": "Tensions rise in Atropia City (capital) as protesters clash with authorities over civil liberties.",
+    "date": "2025-08-02",
+    "theme": "political_unrest",
+    "location": "Atropia City (capital)"
+  },
+  {
+    "id": "atropia_068",
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Citizens gather in Downtown to protest voting rights. Demonstrators call for free and fair elections.",
+    "date": "2025-12-03",
+    "theme": "economic_conditions",
+    "location": "Downtown"
+  },
+  {
+    "id": "atropia_069",
+    "title": "Atropia News: Political Unrest",
+    "excerpt": "Electoral campaign intensifies in Market District with rallies drawing hundreds of supporters.",
+    "date": "2025-11-12",
+    "theme": "political_unrest",
+    "location": "Market District"
+  },
+  {
+    "id": "atropia_070",
+    "title": "Atropia News: Elections",
+    "excerpt": "Government announces new policy regarding civil liberties. Civil society groups express serious concerns.",
+    "date": "2025-09-14",
+    "theme": "elections",
+    "location": "Donovia Border Region"
+  },
+  {
+    "id": "atropia_071",
+    "title": "Atropia News: Government Response",
+    "excerpt": "Grassroots movement gains momentum in University District, advocating for free and fair elections.",
+    "date": "2025-09-19",
+    "theme": "government_response",
+    "location": "University District"
+  },
+  {
+    "id": "atropia_072",
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Large rally held in Industrial Zone with estimated hundreds of participants. Focus on minority rights.",
+    "date": "2025-01-08",
+    "theme": "economic_conditions",
+    "location": "Industrial Zone"
+  },
+  {
+    "id": "atropia_073",
+    "title": "Atropia News: Government Response",
+    "excerpt": "Women march through Downtown protesting labor conditions garnering serious concerns drawing several hundred.",
+    "date": "2025-09-06",
+    "theme": "government_response",
+    "location": "Downtown"
+  },
+  {
+    "id": "atropia_074",
+    "title": "Atropia News: Protests",
+    "excerpt": "Women march through Market District protesting government transparency garnering cautious optimism drawing thousands of.",
+    "date": "2025-09-21",
+    "theme": "protests",
+    "location": "Market District"
+  },
+  {
+    "id": "atropia_075",
+    "title": "Atropia News: Social Movements",
+    "excerpt": "Student groups organize sit-in at Donovia Border Region to demand institutional transparency.",
+    "date": "2025-05-01",
+    "theme": "social_movements",
+    "location": "Donovia Border Region"
+  },
+  {
+    "id": "atropia_076",
+    "title": "Atropia News: Elections",
+    "excerpt": "Community organizers mobilize in University District around issues of civil liberties.",
+    "date": "2025-11-25",
+    "theme": "elections",
+    "location": "University District"
+  },
+  {
+    "id": "atropia_077",
+    "title": "Atropia News: Government Response",
+    "excerpt": "Women march through Atropia City (capital) protesting healthcare access garnering serious concerns drawing several hundred.",
+    "date": "2025-08-05",
+    "theme": "government_response",
+    "location": "Atropia City (capital)"
+  },
+  {
+    "id": "atropia_078",
+    "title": "Atropia News: Political Unrest",
+    "excerpt": "Online messaging for a government transparency pushes for free and fair elections getting attention from several hundred.",
+    "date": "2025-05-21",
+    "theme": "political_unrest",
+    "location": "Downtown"
+  },
+  {
+    "id": "atropia_079",
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Electoral campaign intensifies in Atropia City (capital) with rallies drawing over a thousand supporters.",
+    "date": "2025-08-08",
+    "theme": "economic_conditions",
+    "location": "Atropia City (capital)"
+  },
+  {
+    "id": "atropia_080",
+    "title": "Atropia News: Elections",
+    "excerpt": "Tensions rise in Donovia Border Region as protesters clash with authorities over gender_violence.",
+    "date": "2025-09-23",
+    "theme": "elections",
+    "location": "Donovia Border Region"
+  },
+  {
+    "id": "atropia_081",
+    "title": "Atropia News: Protests",
+    "excerpt": "Opposition party stages demonstration in Pineland Province. Key demands include social justice.",
+    "date": "2025-01-01",
+    "theme": "protests",
+    "location": "Pineland Province"
+  },
+  {
+    "id": "atropia_082",
+    "title": "Atropia News: Social Movements",
+    "excerpt": "Grassroots movement gains momentum in University District, advocating for government accountability.",
+    "date": "2025-06-19",
+    "theme": "social_movements",
+    "location": "University District"
+  },
+  {
+    "id": "atropia_083",
+    "title": "Atropia News: Civil Society",
+    "excerpt": "Government announces new policy regarding education funding. Civil society groups express serious concerns.",
+    "date": "2025-12-11",
+    "theme": "civil_society",
+    "location": "Market District"
+  },
+  {
+    "id": "atropia_084",
+    "title": "Atropia News: Elections",
+    "excerpt": "Workers union leads march through University District protesting healthcare access.",
+    "date": "2025-05-06",
+    "theme": "elections",
+    "location": "University District"
+  },
+  {
     "id": "atropia_085",
     "title": "Atropia News: Protests",
-    "excerpt": "Tensions rise in Government Quarter as protesters clash with authorities over minority rights.",
-    "date": "2025-04-12",
+    "excerpt": "Large rally held in Government Quarter with estimated thousands of participants. Focus on government transparency.",
+    "date": "2025-04-26",
     "theme": "protests",
     "location": "Government Quarter"
   },
   {
     "id": "atropia_086",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Tensions rise in Pineland Province as protesters clash with authorities over environmental policy.",
-    "date": "2025-12-16",
-    "theme": "economic_conditions",
-    "location": "Pineland Province"
+    "title": "Atropia News: Elections",
+    "excerpt": "Citizens gather in Market District to protest economic reforms. Demonstrators call for economic justice.",
+    "date": "2025-12-17",
+    "theme": "elections",
+    "location": "Market District"
   },
   {
     "id": "atropia_087",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Community organizers mobilize in Donovia Border Region around issues of corruption.",
-    "date": "2025-08-15",
-    "theme": "economic_conditions",
-    "location": "Donovia Border Region"
+    "title": "Atropia News: Political Unrest",
+    "excerpt": "Workers union leads march through Pineland Province protesting healthcare access.",
+    "date": "2025-02-07",
+    "theme": "political_unrest",
+    "location": "Pineland Province"
   },
   {
     "id": "atropia_088",
+    "title": "Atropia News: Elections",
+    "excerpt": "Online messaging for a minority rights pushes for institutional transparency getting attention from thousands of.",
+    "date": "2025-10-03",
+    "theme": "elections",
+    "location": "Industrial Zone"
+  },
+  {
+    "id": "atropia_089",
     "title": "Atropia News: Civil Society",
-    "excerpt": "Student groups organize sit-in at Atropia City (capital) to demand equal representation.",
-    "date": "2025-07-04",
+    "excerpt": "Online messaging for a minority rights pushes for economic justice getting attention from hundreds of.",
+    "date": "2025-02-28",
     "theme": "civil_society",
     "location": "Atropia City (capital)"
   },
   {
-    "id": "atropia_089",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Electoral campaign intensifies in Industrial Zone with rallies drawing over a thousand supporters.",
-    "date": "2025-06-08",
-    "theme": "economic_conditions",
-    "location": "Industrial Zone"
-  },
-  {
     "id": "atropia_090",
-    "title": "Atropia News: Civil Society",
-    "excerpt": "Grassroots movement gains momentum in Donovia Border Region, advocating for constitutional changes.",
-    "date": "2025-08-10",
-    "theme": "civil_society",
-    "location": "Donovia Border Region"
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Online messaging for a civil liberties pushes for immediate reforms getting attention from hundreds of.",
+    "date": "2025-07-01",
+    "theme": "economic_conditions",
+    "location": "Market District"
   },
   {
     "id": "atropia_091",
-    "title": "Atropia News: Protests",
-    "excerpt": "Tensions rise in University District as protesters clash with authorities over healthcare access.",
-    "date": "2025-08-16",
-    "theme": "protests",
-    "location": "University District"
+    "title": "Atropia News: Elections",
+    "excerpt": "Workers union leads march through Industrial Zone protesting healthcare access.",
+    "date": "2025-06-10",
+    "theme": "elections",
+    "location": "Industrial Zone"
   },
   {
     "id": "atropia_092",
-    "title": "Atropia News: Economic Conditions",
-    "excerpt": "Government announces new policy regarding labor conditions. Civil society groups express mixed reactions.",
-    "date": "2025-09-13",
-    "theme": "economic_conditions",
-    "location": "Market District"
+    "title": "Atropia News: Protests",
+    "excerpt": "Large rally held in Donovia Border Region with estimated thousands of participants. Focus on healthcare access.",
+    "date": "2025-11-23",
+    "theme": "protests",
+    "location": "Donovia Border Region"
   },
   {
     "id": "atropia_093",
-    "title": "Atropia News: Social Movements",
-    "excerpt": "Workers union leads march through Government Quarter protesting education funding.",
-    "date": "2025-01-15",
-    "theme": "social_movements",
-    "location": "Government Quarter"
+    "title": "Atropia News: Government Response",
+    "excerpt": "Large rally held in Atropia City (capital) with estimated thousands of participants. Focus on gender_violence.",
+    "date": "2025-09-16",
+    "theme": "government_response",
+    "location": "Atropia City (capital)"
   },
   {
     "id": "atropia_094",
-    "title": "Atropia News: Protests",
-    "excerpt": "Opposition party stages demonstration in Market District. Key demands include institutional transparency.",
-    "date": "2025-06-04",
-    "theme": "protests",
-    "location": "Market District"
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Women march through University District protesting gender_violence garnering cautious optimism drawing hundreds of.",
+    "date": "2025-09-13",
+    "theme": "economic_conditions",
+    "location": "University District"
   },
   {
     "id": "atropia_095",
-    "title": "Atropia News: Elections",
-    "excerpt": "Workers union leads march through Donovia Border Region protesting civil liberties.",
-    "date": "2025-10-26",
-    "theme": "elections",
-    "location": "Donovia Border Region"
+    "title": "Atropia News: Social Movements",
+    "excerpt": "Citizens gather in Industrial Zone to protest minority rights. Demonstrators call for social justice.",
+    "date": "2025-09-08",
+    "theme": "social_movements",
+    "location": "Industrial Zone"
   },
   {
     "id": "atropia_096",
-    "title": "Atropia News: Elections",
-    "excerpt": "Large rally held in Government Quarter with estimated over a thousand participants. Focus on economic reforms.",
-    "date": "2025-09-05",
-    "theme": "elections",
-    "location": "Government Quarter"
+    "title": "Atropia News: Government Response",
+    "excerpt": "Government announces new policy regarding labor conditions. Civil society groups express mixed reactions.",
+    "date": "2025-07-14",
+    "theme": "government_response",
+    "location": "University District"
   },
   {
     "id": "atropia_097",
-    "title": "Atropia News: Civil Society",
-    "excerpt": "Community organizers mobilize in Donovia Border Region around issues of economic reforms.",
-    "date": "2025-05-13",
-    "theme": "civil_society",
-    "location": "Donovia Border Region"
+    "title": "Atropia News: Government Response",
+    "excerpt": "Large rally held in Industrial Zone with estimated hundreds of participants. Focus on civil liberties.",
+    "date": "2025-05-12",
+    "theme": "government_response",
+    "location": "Industrial Zone"
   },
   {
     "id": "atropia_098",
-    "title": "Atropia News: Elections",
-    "excerpt": "Citizens gather in Market District to protest environmental policy. Demonstrators call for government accountability.",
-    "date": "2025-07-25",
-    "theme": "elections",
-    "location": "Market District"
+    "title": "Atropia News: Economic Conditions",
+    "excerpt": "Student groups organize sit-in at Donovia Border Region to demand policy reversal.",
+    "date": "2025-06-05",
+    "theme": "economic_conditions",
+    "location": "Donovia Border Region"
   },
   {
     "id": "atropia_099",
-    "title": "Atropia News: Elections",
-    "excerpt": "Student groups organize sit-in at Donovia Border Region to demand government accountability.",
-    "date": "2025-03-06",
-    "theme": "elections",
-    "location": "Donovia Border Region"
+    "title": "Atropia News: Social Movements",
+    "excerpt": "Workers union leads march through Atropia City (capital) protesting healthcare access.",
+    "date": "2025-05-27",
+    "theme": "social_movements",
+    "location": "Atropia City (capital)"
   },
   {
     "id": "atropia_100",
     "title": "Atropia News: Political Unrest",
-    "excerpt": "Community organizers mobilize in Industrial Zone around issues of minority rights.",
-    "date": "2025-04-04",
+    "excerpt": "Large rally held in Market District with estimated hundreds of participants. Focus on minority rights.",
+    "date": "2025-11-26",
     "theme": "political_unrest",
-    "location": "Industrial Zone"
+    "location": "Market District"
   }
 ]

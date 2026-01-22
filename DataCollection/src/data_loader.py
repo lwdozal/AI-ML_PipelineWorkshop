@@ -36,7 +36,8 @@ class AtropiaDataLoader:
         self.data_file = self.data_dir / "atropia_samples.json"
 
         # Atropia data source URL
-        self.base_url = "https://odin.tradoc.army.mil/DATE/Caucasus/Atropia"
+        # self.base_url = "https://odin.tradoc.army.mil/DATE/Caucasus/Atropia"
+        self.base_url = "https://odin.tradoc.army.mil/DATE/Caucasus/Atropia/Political:_Atropia"
 
     def fetch_data(self) -> List[Dict[str, Any]]:
         """
@@ -48,15 +49,9 @@ class AtropiaDataLoader:
         Returns:
             List of Atropia news samples
         """
-        logger.info("Fetching Atropia data...")
-
-        # Attempt to fetch from real source
-        samples = self._try_fetch_from_web()
-
-        # If web fetch fails, generate synthetic samples
-        if not samples:
-            logger.warning("Could not fetch from web. Generating synthetic Atropia samples.")
-            samples = self._generate_synthetic_samples()
+        logger.info("Fetching Atropia data from sampled scenarios based on Atropia and specific social movement.")
+        #just get synthetic data
+        samples = self._generate_synthetic_samples()
 
         # Save to file
         self._save_data(samples)
@@ -64,30 +59,6 @@ class AtropiaDataLoader:
         logger.info(f"Loaded {len(samples)} Atropia samples")
         return samples
 
-    def _try_fetch_from_web(self) -> List[Dict[str, Any]]:
-        """
-        Attempt to fetch Atropia data from web.
-
-        Returns:
-            List of samples or empty list if fetch fails
-        """
-        try:
-            # Note: This is a placeholder. The actual Atropia site may require authentication.
-            # In a real implementation, you would parse the actual HTML structure.
-            response = requests.get(self.base_url, timeout=10)
-            if response.status_code == 200:
-                soup = BeautifulSoup(response.text, 'html.parser')
-                # Parse news articles (structure depends on actual site)
-                # This is a placeholder implementation
-                samples = []
-                # ... parsing logic would go here
-                return samples
-            else:
-                logger.warning(f"Web fetch returned status {response.status_code}")
-                return []
-        except Exception as e:
-            logger.warning(f"Failed to fetch from web: {e}")
-            return []
 
     def _generate_synthetic_samples(self) -> List[Dict[str, Any]]:
         """
@@ -113,7 +84,8 @@ class AtropiaDataLoader:
             "University District",
             "Industrial Zone",
             "Government Quarter",
-            "Market District"
+            "Market District",
+            "Downtown"
         ]
 
         # Sample news templates
@@ -128,6 +100,8 @@ class AtropiaDataLoader:
             "Electoral campaign intensifies in {location} with rallies drawing {crowd_size} supporters.",
             "Student groups organize sit-in at {location} to demand {demand}.",
             "Workers union leads march through {location} protesting {issue}.",
+            "Women march through {location} protesting {issue} garnering {sentiment} drawing {crowd_size}.",
+            "Online messaging for a {issue} pushes for {demand} getting attention from {crowd_size}."
         ]
 
         issues = [
@@ -140,8 +114,9 @@ class AtropiaDataLoader:
             "healthcare access",
             "civil liberties",
             "environmental policy",
-            "minority rights"
-        ]
+            "minority rights",
+            "gender_violence"
+            ]
 
         demands = [
             "immediate reforms",
@@ -151,8 +126,10 @@ class AtropiaDataLoader:
             "policy reversal",
             "institutional transparency",
             "equal representation",
-            "economic justice"
-        ]
+            "economic justice",
+            "social justice",
+            "gender equality"
+            ]
 
         sentiments = ["strong support", "cautious optimism", "serious concerns", "mixed reactions"]
         topics = issues
@@ -239,8 +216,34 @@ class WorldBankDataLoader:
         self.data_file = self.data_dir / "worldbank_demographics.csv"
 
         # World Bank data source URL
-        self.data_url = "https://microdata.worldbank.org/index.php/catalog/5906/study-description"
+        self.data_url = "https://microdata.worldbank.org/catalog/5906/download/62501"
+        #"https://microdata.worldbank.org/index.php/catalog/5906/study-description"
 
+    def _try_fetch_from_web(self) -> List[Dict[str, Any]]:
+        """
+        Attempt to fetch World Bank data from web.
+
+        Returns:
+            List of samples or empty list if fetch fails
+        """
+        try:
+            # Note: This is a placeholder. The actual Atropia site may require authentication.
+            # In a real implementation, you would parse the actual HTML structure.
+            response = requests.get(self.data_url, timeout=10)
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.text, 'html.parser')
+                # Parse news articles (structure depends on actual site)
+                # This is a placeholder implementation
+                samples = []
+                # ... parsing logic would go here
+                return samples
+            else:
+                logger.warning(f"Web fetch returned status {response.status_code}")
+                return []
+        except Exception as e:
+            logger.warning(f"Failed to fetch from web: {e}")
+            return []
+        
     def fetch_data(self) -> pd.DataFrame:
         """
         Fetch World Bank demographics data.
@@ -251,10 +254,18 @@ class WorldBankDataLoader:
         Returns:
             DataFrame with demographic profiles
         """
-        logger.info("Fetching World Bank demographics...")
+        # Attempt to fetch from real source
+        demographics = self._try_fetch_from_web()
+
+        # # If web fetch fails, generate synthetic samples
+        if not demographics:
+            logger.warning("Could not fetch from web. Generating synthetic Atropia samples.")
+            demographics = self._generate_synthetic_demographics()
+
+        logger.info("Generating World Bank demographics from typical world bank data.")
 
         # Generate synthetic demographics
-        demographics = self._generate_synthetic_demographics()
+        # demographics = self._generate_synthetic_demographics()
 
         # Save to file
         demographics.to_csv(self.data_file, index=False)
@@ -335,8 +346,10 @@ class SocialMediaDataLoader:
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(parents=True, exist_ok=True)
 
-        self.descriptions_file = self.data_dir / "visual_descriptions.json"
+        self.descriptions_file = self.data_dir / "imagepath_labels_descp.json"
         self.images_dir = self.data_dir / "reference_images"
+        # self.descriptions_file = self.data_dir / "visual_descriptions.json"
+        # self.images_dir = self.data_dir / "SM_images.tar.gz"
 
     def load_descriptions(self) -> List[Dict[str, Any]]:
         """
