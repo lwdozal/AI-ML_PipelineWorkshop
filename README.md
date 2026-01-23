@@ -6,7 +6,7 @@ January 23, 2026
 AI/MLOPs pipeline that runs synthetically generated image data through a Multimodal-LLM to generate labels and captions of each image. These labels and captions are semantically evaluated and then implemented into a network structure to understand different thematic representations and how they are grouped. 
 
 The synthetically generated images follow the topic of a specific case study, a social movement. The process uses quantitative and Human-In-The-Loop evaluation to identify patterns within the network structure to summarize the overall narrative found within the collection of images. 
-
+Cyverse Discovery Environment
 ### Learning Objectives
 1) Understanding of AI/MLOPs and pipeline creation (Using Open Source CARE principles)
 2) Introduction to Synthetic Data Generation
