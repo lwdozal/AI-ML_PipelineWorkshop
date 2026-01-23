@@ -49,6 +49,7 @@ class OutputHandler:
         self.labels_dir = self.output_dir / "labels"
         self.comments_dir = self.output_dir / "comments"
         self.metadata_dir = self.output_dir / "metadata"
+        self.analysis_dir = self.output_dir / "analysis"
 
         self._create_directories()
 
@@ -64,7 +65,8 @@ class OutputHandler:
             self.captions_dir,
             self.labels_dir,
             self.comments_dir,
-            self.metadata_dir
+            self.metadata_dir,
+            self.analysis_dir
         ]:
             directory.mkdir(parents=True, exist_ok=True)
 
