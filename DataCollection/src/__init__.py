@@ -12,7 +12,7 @@ __license__ = "GNU GPL v3"
 
 # Core modules
 from . import config
-from . import gemini_client
+# from . import gemini_client
 from . import data_loader
 from . import prompt_builder
 from . import output_handler
@@ -20,7 +20,7 @@ from . import validation
 
 __all__ = [
     "config",
-    "gemini_client",
+    # "gemini_client",
     "data_loader",
     "prompt_builder",
     "output_handler",
