@@ -54,7 +54,7 @@ The synthetically generated images follow the topic of a specific case study, a 
    pip install -r requirements.txt
    ```
 
-6. **Configure API Keys Create .gitignore**
+<!-- 6. **Configure API Keys Create .gitignore**
    ```bash
    cd DataCollection
    cp [config/.env.example] [config/.env] 
@@ -66,24 +66,24 @@ The synthetically generated images follow the topic of a specific case study, a 
    #windows
    echo > .gitignore
 
-   # add DataCollection/config/.env to .gitignore to save your api keys
-   ```
+   # add DataCollection/config/.env to .gitignore to save your api keys -->
 
-7. **Verify Setup**
+
+ 7. **Verify Setup**
    - Open Jupyter Lab
    - Navigate to `DataCollection/notebooks/`
-   - Run `01_setup_and_test.ipynb` to verify installation 
+   <!-- - Run `01_setup_and_test.ipynb` to verify installation  -->
 
 
 
 
 ____________________________________________________________________________________
-## [Data Collection and Evaluation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/tree/main/DataCollection)
+<!-- ## [Data Collection and Evaluation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/tree/main/DataCollection) -->
 
 
-Complete pipeline for generating synthetic social movement images with metadata.
+<!-- Complete pipeline for generating synthetic social movement images with metadata. -->
 
-### What's Included
+<!-- ### What's Included -->
 
 <!-- - **5 Jupyter Notebooks**: Step-by-step workflow from setup to QA
 - **6 Python Modules**: Reusable components for data generation
@@ -92,19 +92,19 @@ Complete pipeline for generating synthetic social movement images with metadata.
 - **Checkpointing**: Resume interrupted generation runs
 - **Quality Assurance**: Comprehensive validation and reporting -->
 
-### Quick Start
+<!-- ### Quick Start
 
 ```bash
 cd DataCollection/notebooks
 jupyter lab
 # Run notebooks in order: 01 → 02 → 03 → 04 → 05
-```
+``` -->
 
 ### Notebooks Overview
 - [Scenario Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/01_scenario_generation.ipynb)
 - [Synthetic (Image) Data Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/02_generate_synth_images.ipynb)
-- **04_generate_metadata.ipynb** - Create captions, labels, and comments
-- **05_quality_assurance.ipynb** - Validate dataset and generate QA reports
+- [Image Feature Clustering]()
+- [DIY Problem Solving - Comparing M-LLM Generated Descriptions]()
 
 ### Data Sources
 
@@ -114,7 +114,7 @@ The pipeline combines three contextual data sources:
 2. **World Bank Synthetic Demographics**: Imaginary country demographic profiles
 3. **Social Media References**: Visual descriptions for realistic image generation
 
-### Output Dataset Structure
+<!-- ### Output Dataset Structure
 
 ```
 data/generated/
@@ -126,7 +126,7 @@ data/generated/
 ├── all_captions.csv     # CSV export for analysis
 ├── all_labels.csv       # CSV export for analysis
 └── all_comments.csv     # CSV export for analysis
-```
+``` -->
 
 <!-- ### Cost Estimates
 

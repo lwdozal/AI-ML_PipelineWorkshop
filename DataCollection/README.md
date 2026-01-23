@@ -15,8 +15,9 @@ The synthetic data generation pipeline creates realistic social movement images 
 ### Prerequisites
 
 - Python 3.8 or higher
-- CyVerse Jupyter Lab PyTorch GPU environment (recommended)
-- Google Gemini API key ([Get one here](https://makersuite.google.com/app/apikey))
+- FOR WORKSHOP: CyVerse Jupyter Lab PyTorch GPU environment
+- HuggingFace Token Access
+<!-- - Google Gemini API key ([Get one here](https://makersuite.google.com/app/apikey)) -->
 
 ### Installation
 
@@ -30,7 +31,7 @@ The synthetic data generation pipeline creates realistic social movement images 
 2. **Create and activate virtual environment**
    ```bash
    # Using venv
-   python -m venv venv
+   python -m venv venvname
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
    # OR using conda
@@ -43,12 +44,11 @@ The synthetic data generation pipeline creates realistic social movement images 
    pip install -r requirements.txt
    ```
 
-4. **Configure API key**
+<!-- 4. **Configure API key**
    ```bash
    cd DataCollection
    cp config/.env.example config/.env
-   # Edit config/.env and add your Google Gemini API key
-   ```
+   ``` -->
 
 5. **Run setup test**
    ```bash
@@ -56,7 +56,7 @@ The synthetic data generation pipeline creates realistic social movement images 
    # Open and run notebooks/01_setup_and_test.ipynb
    ```
 
-## Pipeline Architecture
+<!-- ## Pipeline Architecture
 
 ```
 DataCollection/
@@ -288,9 +288,9 @@ The pipeline includes comprehensive QA:
    - Label distribution by category
    - Caption length statistics
    - Word frequency analysis
-   - Bias detection
+   - Bias detection -->
 
-4. **QA Reports**
+<!-- 4. **QA Reports**
    - Comprehensive validation report (JSON)
    - Quality assessment score
    - Recommendations for improvements
@@ -351,4 +351,4 @@ College of Information, University of Arizona.
 **Workshop**: AI/ML Pipeline - Synthetic Data Generation
 **Date**: January 23, 2026
 **Platform**: CyVerse Discovery Environment - Jupyter Lab PyTorch GPU
-**Focus**: MLOps, LLMOps, FAIR and CARE principles
+**Focus**: MLOps, LLMOps, FAIR and CARE principles -->

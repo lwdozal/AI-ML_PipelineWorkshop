@@ -6,23 +6,31 @@ numpy>=1.23.0
 Pillow>=9.5.0
 opencv-python
 diffusers
-transformers 
-accelerate 
-torch
 bitsandbytes
 ipywidgets
+
+# Mllms
+torch
+transformers 
+accelerate 
 sentencepiece
+
 
 # Configuration Management
 python-dotenv
 PyYAML
 
 # Progress Tracking
-tqdm>=4.65.0pip
+tqdm>=4.65.0
 
 # Visualization
 matplotlib
 seaborn
+umap-learn 
+hdbscan 
+scikit-learn
+plotly 
+nbformat
 
 # Web Scraping (for Atropia data)
 requests>=2.31.0
