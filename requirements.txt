@@ -2,7 +2,7 @@
 pandas>=1.5.0
 numpy>=1.23.0
 
-# Image Processing
+# Image Processing and Generation
 Pillow>=9.5.0
 opencv-python
 diffusers
@@ -10,7 +10,8 @@ transformers
 accelerate 
 torch
 bitsandbytes
-
+ipywidgets
+sentencepiece
 
 # Configuration Management
 python-dotenv
