@@ -103,8 +103,8 @@ jupyter lab
 ### Notebooks Overview
 - [Scenario Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/01_scenario_generation.ipynb)
 - [Synthetic (Image) Data Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/02_generate_synth_images.ipynb)
-- [Image Feature Clustering]()
-- [DIY Problem Solving - Comparing M-LLM Generated Descriptions]()
+- [Image Feature Clustering](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/03_cluster_img_embeds.ipynb)
+- [DIY Problem Solving - Comparing M-LLM Generated Descriptions](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/04_compare_MLLMs.ipynb)
 
 ### Data Sources
 
