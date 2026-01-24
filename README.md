@@ -1,12 +1,11 @@
 # AI Workbench for Synthetic Data Generation, Generative M-LLM Comparison, and Network Building
 *Funded by Jetstream2* \
-**Still in Development** - *MLOPs and LLMOPs for Jetstream2 AI Worskhop* \
-January 23, 2026
+*MLOPs and LLMOPs for Jetstream2 AI Worskhop*, January 23, 2026
 
 AI/MLOPs pipeline that runs synthetically generated image data through a Multimodal-LLM to generate labels and captions of each image. These labels and captions are semantically evaluated and then implemented into a network structure to understand different thematic representations and how they are grouped. 
 
 The synthetically generated images follow the topic of a specific case study, a social movement. The process uses quantitative and Human-In-The-Loop evaluation to identify patterns within the network structure to summarize the overall narrative found within the collection of images. 
-Cyverse Discovery Environment
+
 ### Learning Objectives
 1) Understanding of AI/MLOPs and pipeline creation (Using Open Source CARE principles)
 2) Introduction to Synthetic Data Generation
@@ -16,7 +15,7 @@ Cyverse Discovery Environment
    
 ## Implementation
 
-### Workshop Setup
+### Jan. 2026 - Workshop Setup
 
 1. **Enroll in the Workshop** to access CyVerse Discovery Environment
    - Workshop enrollment: [CyVerse Workshop Registration](https://user.cyverse.org/workshops/208)
@@ -28,7 +27,7 @@ Cyverse Discovery Environment
    - Select "Jupyter Lab PyTorch GPU"
    - Wait for environment to initialize
   
-### General Set-up (No need to enroll in the workshop if not present day-of Janurary 23rd)
+### General Set-up 
 
 3. **Clone the Repository**
    ```bash
@@ -43,17 +42,25 @@ Cyverse Discovery Environment
    python -m venv venvname
    source venv/bin/activate
    ```
-
-<!--    # Using conda (if available)
-   conda create -n aiml-workshop python=3.9
-   conda activate aiml-workshop -->
-   
+   ***Using conda (if available)***
+   ```conda create -n aiml-workshop python=3.9
+   conda activate aiml-workshop
+   ```
 
 5. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
+6. **Navigate to Notebooks to get started!**
 
+ `DataCollection/notebooks/`
+
+   - 1) [Scenario Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/01_scenario_generation.ipynb)
+   - 2) [Synthetic (Image) Data Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/02_generate_synth_images.ipynb)
+   - 3) [Image Feature Clustering](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/03_cluster_img_embeds.ipynb)
+   - 4) [DIY Problem Solving - Comparing M-LLM Generated Descriptions](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/04_compare_MLLMs.ipynb)
+
+   
 <!-- 6. **Configure API Keys Create .gitignore**
    ```bash
    cd DataCollection
@@ -68,11 +75,10 @@ Cyverse Discovery Environment
 
    # add DataCollection/config/.env to .gitignore to save your api keys -->
 
-
+ <!-- 
  7. **Verify Setup**
    - Open Jupyter Lab
-   - Navigate to `DataCollection/notebooks/`
-   <!-- - Run `01_setup_and_test.ipynb` to verify installation  -->
+  - Run `01_setup_and_test.ipynb` to verify installation  -->
 
 
 
@@ -100,20 +106,6 @@ jupyter lab
 # Run notebooks in order: 01 → 02 → 03 → 04 → 05
 ``` -->
 
-### Notebooks Overview
-- [Scenario Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/01_scenario_generation.ipynb)
-- [Synthetic (Image) Data Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/02_generate_synth_images.ipynb)
-- [Image Feature Clustering](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/03_cluster_img_embeds.ipynb)
-- [DIY Problem Solving - Comparing M-LLM Generated Descriptions](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/04_compare_MLLMs.ipynb)
-
-### Data Sources
-
-The pipeline combines three contextual data sources:
-
-1. **Atropia Data**: Fictional country news from U.S. military training scenarios
-2. **World Bank Synthetic Demographics**: Imaginary country demographic profiles
-3. **Social Media References**: Visual descriptions for realistic image generation
-
 <!-- ### Output Dataset Structure
 
 ```
@@ -138,13 +130,6 @@ Based on Google Gemini API pricing (free tier available):
 
 **Recommendation**: Start with 10-20 images for testing. -->
 
-### Documentation
-
-- Detailed instructions: [DataCollection/README.md](./DataCollection/README.md)
-<!-- - Project context: [CLAUDE.md](./CLAUDE.md) -->
-- Configuration guide: [DataCollection/config/](./DataCollection/config/)
-
-**Note**: Original social movement data not shared due to Instagram privacy policy. This pipeline generates synthetic alternatives.
 
 <!-- ## Data Exploration (Content Analysis)
 
@@ -182,7 +167,7 @@ Identify Semantic similarities by creating and evaluating structural graphs (con
 - Viz_weights + generated label_weights
 - Viz_weights & generated label_weights + generated captions
 - Viz_weights & generated label_weights + generated captions & original post comments  -->
--->
+
 
 <!-- 
 Community Detection (Evaluation of Network Structure):
