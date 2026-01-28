@@ -1,7 +1,8 @@
 # AI Workbench for Synthetic Data Generation, Generative M-LLM Comparison, and Network Building
 *Funded by Jetstream2* \
 *MLOPs and LLMOPs for Jetstream2 AI Worskhop*, January 23, 2026 \
-DOI: 10.5281/zenodo.18407334
+[DOI: 10.5281/zenodo.18407334
+](https://doi.org/10.5281/zenodo.18407373)
 
 AI/MLOPs pipeline that runs synthetically generated image data through a Multimodal-LLM to generate labels and captions of each image. These labels and captions are semantically evaluated and then implemented into a network structure to understand different thematic representations and how they are grouped. 
 
@@ -60,6 +61,18 @@ The synthetically generated images follow the topic of a specific case study, a 
    - 2) [Synthetic (Image) Data Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/02_generate_synth_images.ipynb)
    - 3) [Image Feature Clustering](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/03_cluster_img_embeds.ipynb)
    - 4) [DIY Problem Solving - Comparing M-LLM Generated Descriptions](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/04_compare_MLLMs.ipynb)
+
+
+
+
+
+
+### Cite this work
+
+APA:   Dozal, Laura W. (2026). lwdozal/AI-ML_PipelineWorkshop (Version v2). Zenodo. https://doi.org/10.5281/zenodo.18407373
+
+IEEE:   [1]Laura W. Dozal, “lwdozal/AI-ML_PipelineWorkshop”. Zenodo, Jan. 28, 2026. doi: 10.5281/zenodo.18407373.
+
 
    
 <!-- 6. **Configure API Keys Create .gitignore**
