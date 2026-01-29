@@ -4,9 +4,7 @@
 [DOI: 10.5281/zenodo.18407334
 ](https://doi.org/10.5281/zenodo.18407373)
 
-AI/MLOPs pipeline that runs synthetically generated image data through a Multimodal-LLM to generate labels and captions of each image. These labels and captions are semantically evaluated and then implemented into a network structure to understand different thematic representations and how they are grouped. 
-
-The synthetically generated images follow the topic of a specific case study, a social movement. The process uses quantitative and Human-In-The-Loop evaluation to identify patterns within the network structure to summarize the overall narrative found within the collection of images. 
+This AI/MLOPs pipeline creates synthetically generated images creating a specific scenario for an open source text to image generation models. The images are based on a specific case study, a social movement. The process enables customizable scenarios to create the data. Then, the pipeline runs the synthetically generated image data through CLIP to create image feature embeddings for visualization and evaluation.
 
 ### Learning Objectives
 1) Understanding of AI/MLOPs and pipeline creation (Using Open Source CARE principles)
