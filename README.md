@@ -1,4 +1,4 @@
-# AI Workbench for Synthetic Data Generation, Generative M-LLM Comparison, and Network Building
+# AI Pipeline for Synthetic Data Generation, Generative M-LLM Comparison, and Network Building
 *Funded by Jetstream2* \
 *MLOPs and LLMOPs for Jetstream2 AI Worskhop*, January 23, 2026 \
 [DOI: 10.5281/zenodo.18407334
