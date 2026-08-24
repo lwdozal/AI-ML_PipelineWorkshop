@@ -52,9 +52,9 @@ This AI/MLOPs pipeline creates synthetically generated images creating a specifi
    pip install -r requirements.txt
    ```
 6. **Navigate to Notebooks to get started!**
-
  `DataCollection/notebooks/`
 
+## Notebooks
    - 1) [Scenario Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/01_scenario_generation.ipynb)
    - 2) [Synthetic (Image) Data Generation](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/02_generate_synth_images.ipynb)
    - 3) [Image Feature Clustering](https://github.com/lwdozal/AI-ML_PipelineWorkshop/blob/main/DataCollection/notebooks/03_cluster_img_embeds.ipynb)
